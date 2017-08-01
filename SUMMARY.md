@@ -54,9 +54,7 @@
   * [线程同步synchronized](javaduo-xian-cheng/tong-bu-ff0c-suo.md)
 * [Java枚举](javamei-ju.md)
 * [反射机制](fan-she-ji-zhi.md)
-* [题目](ti-mu.md)
 * [Java异常处理](javayi-chang-chu-li.md)
   * [机制](javayi-chang-chu-li/ji-zhi.md)
-
-
+* [题目](ti-mu.md)
 
