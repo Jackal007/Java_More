@@ -1,22 +1,22 @@
 ### 对象方法：
 
 ```java
-public synchronized void methodA()
+public synchronized void methodA()    // 同步的普通函数  
 {
     //…
 }
 ```
 
-这样子做会把这一整个**对象**锁定起来，同一个类生成的其他对象不会被锁定。
+这样子做呢，当这个方法被调用时会把这一整个**对象**锁定起来，这个**对象**的任何部分现在都暂时不能被访问了；但同一个类生成的其他对象不会被锁定。
 
 ### 类方法：
 
 ```java
-public synchronized static void methodAAA()   // 同步的static 函数  
+public synchronized static void methodAAA()   // 同步的static函数  
 {  
-//….  
-}  
+    //….  
+}
 ```
 
-
+这样子，当类的静态方法被调用时，会把整个**类**锁起来，这个**类**的任何部分现在都暂时不能被访问了；但是和该类生成的对象没关系。
 

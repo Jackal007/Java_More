@@ -55,6 +55,8 @@
     * [同步方法](javaduo-xian-cheng/tong-bu-ff0c-suo/tong-bu-fang-fa.md)
     * [同步代码块](javaduo-xian-cheng/tong-bu-ff0c-suo/tong-bu-dai-ma-kuai.md)
     * [volatile特殊域变量](javaduo-xian-cheng/tong-bu-ff0c-suo/volatilete-shu-yu-bian-liang.md)
+    * [使用重入锁实现线程同步](javaduo-xian-cheng/tong-bu-ff0c-suo/shi-yong-zhong-ru-suo-shi-xian-xian-cheng-tong-bu.md)
+    * 使用ThreadLocal实现线程同步
 * [Java枚举](javamei-ju.md)
 * [反射机制](fan-she-ji-zhi.md)
 * [Java异常处理](javayi-chang-chu-li.md)
