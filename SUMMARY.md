@@ -51,7 +51,7 @@
     * [继承Thread类](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi/ji-cheng-thread-lei.md)
     * [实现Runnable接口](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi/shi-xian-runnable-jie-kou.md)
     * [使用Callable和Future接口创建线程](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi/shi-yong-callablehe-future-jie-kou-chuang-jian-xian-cheng.md)
-  * [线程同步](javaduo-xian-cheng/tong-bu-ff0c-suo.md)
+  * [线程同步synchronized](javaduo-xian-cheng/tong-bu-ff0c-suo.md)
 * [Java枚举](javamei-ju.md)
 * [反射机制](fan-she-ji-zhi.md)
 * [题目](ti-mu.md)
