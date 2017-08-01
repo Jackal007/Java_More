@@ -19,7 +19,7 @@
     * [LinkedHashMap](chapter1/linked-hash-map.md)
     * [TreeMap](chapter1/treemap.md)
     * [WeakHashMap](chapter1/weakhashmap.md)
-* [Java关键字](privateprotectedpublicfinal.md)
+* [Java的一些修饰符](privateprotectedpublicfinal.md)
   * [final](privateprotectedpublicfinal/1.md)
     * [final变量](privateprotectedpublicfinal/1/finalbian-liang.md)
     * [final方法](privateprotectedpublicfinal/1/finalfang-fa.md)
