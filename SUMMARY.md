@@ -58,10 +58,11 @@
     * [使用重入锁实现线程同步](javaduo-xian-cheng/tong-bu-ff0c-suo/shi-yong-zhong-ru-suo-shi-xian-xian-cheng-tong-bu.md)
     * 使用ThreadLocal实现线程同步
   * [多线程数据传递](javaduo-xian-cheng/shu-ju-chuan-di.md)
+* Java注解
 * [Java枚举](javamei-ju.md)
 * [反射机制](fan-she-ji-zhi.md)
 * [Java异常处理](javayi-chang-chu-li.md)
   * [机制](javayi-chang-chu-li/ji-zhi.md)
 * [题目](ti-mu.md)
-* [AOP](aop.md)
+* Java注解
 
