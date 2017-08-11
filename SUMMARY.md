@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [为什么java如此流行](wei-shi-yao-java-ru-ci-liu-xing.md)
+* [Java优缺点](wei-shi-yao-java-ru-ci-liu-xing.md)
 * [Java容器类](chapter1.md)
   * [Collection](chapter1/collection.md)
     * [List](chapter1/collection/list.md)
