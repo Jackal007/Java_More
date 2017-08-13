@@ -28,7 +28,7 @@
     * [final类](privateprotectedpublicfinal/1/finalei.md)
   * [private、protected、public](privateprotectedpublicfinal/privateprotectedpublic.md)
   * [volatile](privateprotectedpublicfinal/volatile.md)
-* [抽象机制](chou-xiang-ji-zhi.md)
+* [Java抽象机制](chou-xiang-ji-zhi.md)
   * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
   * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
 * [Java包装类](javabao-zhuang-lei.md)
@@ -66,4 +66,5 @@
 * Java注解
 * [Java异常处理](javayi-chang-chu-li.md)
   * [机制](javayi-chang-chu-li/ji-zhi.md)
+* [Java equal和==](java-equal548c3d3d.md)
 
