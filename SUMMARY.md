@@ -64,7 +64,6 @@
   * [机制](javayi-chang-chu-li/ji-zhi.md)
 * [Java枚举](javamei-ju.md)
 * Java注解
-* Java注解
 * [Java异常处理](javayi-chang-chu-li.md)
   * [机制](javayi-chang-chu-li/ji-zhi.md)
 * [为什么java如此流行](wei-shi-yao-java-ru-ci-liu-xing.md)
