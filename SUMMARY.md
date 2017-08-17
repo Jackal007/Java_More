@@ -67,10 +67,10 @@
     * [try-catch语句](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi/try-catchyu-ju.md)
     * [try－catch-finally语句](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi/trycatch-finallyyu-ju.md)
   * [抛出异常](javayi-chang-chu-li/pao-chu-yi-chang.md)
-    * throws抛出异常
-    * 使用throw抛出异常
-    * 异常链
-    * Throwable类中的常用方法
+    * [throws抛出异常](javayi-chang-chu-li/pao-chu-yi-chang/throwspao-chu-yi-chang.md)
+    * [使用throw抛出异常](javayi-chang-chu-li/pao-chu-yi-chang/shi-yong-throw-pao-chu-yi-chang.md)
+    * [异常链](javayi-chang-chu-li/pao-chu-yi-chang/yi-chang-lian.md)
+    * [Throwable类中的常用方法](javayi-chang-chu-li/pao-chu-yi-chang/throwablelei-zhong-de-chang-yong-fang-fa.md)
   * [异常类](javayi-chang-chu-li/yi-chang-lei.md)
     * [自定义异常](javayi-chang-chu-li/yi-chang-lei/zi-ding-yi-yi-chang.md)
 * [Java枚举](javamei-ju.md)
