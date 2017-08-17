@@ -75,10 +75,10 @@
     * [自定义异常](javayi-chang-chu-li/yi-chang-lei/zi-ding-yi-yi-chang.md)
 * [Java枚举](javamei-ju.md)
 * Java注解
-* [Java equal和==](java-equal548c3d3d.md)
 * [ORM](orm.md)
   * [Hibernate](orm/hibernate.md)
 * 其他
+  * [Java equal和==](java-equal548c3d3d.md)
 
 
 
