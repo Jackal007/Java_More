@@ -72,6 +72,7 @@
     * 异常链
     * Throwable类中的常用方法
   * [异常类](javayi-chang-chu-li/yi-chang-lei.md)
+    * [自定义异常](javayi-chang-chu-li/yi-chang-lei/zi-ding-yi-yi-chang.md)
 * [Java枚举](javamei-ju.md)
 * Java注解
 * [Java equal和==](java-equal548c3d3d.md)
