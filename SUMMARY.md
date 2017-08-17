@@ -65,6 +65,8 @@
   * [Exception](javayi-chang-chu-li/exception.md)
   * [处理异常机制](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi.md)
     * [try-catch语句](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi/try-catchyu-ju.md)
+    * [try－catch-finally语句](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi/trycatch-finallyyu-ju.md)
+  * 抛出异常
 * [Java枚举](javamei-ju.md)
 * Java注解
 * [Java equal和==](java-equal548c3d3d.md)
