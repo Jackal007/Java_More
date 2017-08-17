@@ -75,9 +75,10 @@
     * [自定义异常](javayi-chang-chu-li/yi-chang-lei/zi-ding-yi-yi-chang.md)
 * [java.text.format](javatextformat.md)
   * [DateFormat](javatextformat/dateformat.md)
-  * NumberFormat
-  * MessageFormat
-  * String类中的format方法
+    * [SimpleDateFormat](javatextformat/dateformat/simpledateformat.md)
+  * [NumberFormat](javatextformat/numberformat.md)
+  * [MessageFormat](javatextformat/messageformat.md)
+  * [String类中的format方法](javatextformat/stringlei-zhong-de-format-fang-fa.md)
 * [Java枚举](javamei-ju.md)
 * Java注解
 * [ORM](orm.md)
