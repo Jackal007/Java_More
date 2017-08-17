@@ -82,6 +82,8 @@
 * Java注解
 * [ORM](orm.md)
   * [Hibernate](orm/hibernate.md)
+* [即时编译器技术 — JIT](ji-shi-bian-yi-qi-ji-zhu-jit.md)
+* [Java序列化](javaxu-lie-hua.md)
 * [其他](qi-ta.md)
   * [java构造函数的调用顺序](javadui-xiang-gou-zao-han-shu-de-diao-yong-shun-xu.md)
   * [Java equal和==](java-equal548c3d3d.md)
