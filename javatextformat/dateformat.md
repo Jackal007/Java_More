@@ -21,17 +21,11 @@ DateFormat format = DateFormat.getDateInstance(DateFormat.DEFAULT,Locale.CANADA)
 //获取加拿大的格式化日期
 ```
 
-也许你要发问了，上面的格式没有我一个想要的啊。那好，这里还有一个好东西
-
-  
-
-
-  
 
 
 > 作者：Jadyn
 >
-> 链接：http://www.jianshu.com/p/c8f16cab35e1
+> 链接：[http://www.jianshu.com/p/c8f16cab35e1](http://www.jianshu.com/p/c8f16cab35e1)
 >
 > 來源：简书
 >
