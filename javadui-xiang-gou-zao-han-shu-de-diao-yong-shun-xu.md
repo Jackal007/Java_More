@@ -12,3 +12,79 @@
 
 4. 调用子类的构造函数
 
+
+
+### 例子：
+
+```java
+class A {
+	public A() {
+		System.out.println("A");
+		t();
+	}
+
+	public void t() {
+		System.out.println("At");
+	}
+}
+
+class B extends A {
+	public B() {
+		System.out.println("B");
+	}
+
+	public void t() {
+		System.out.println("Bt");
+	}
+}
+
+B b=new B();
+```
+
+结果：
+
+```java
+A
+Bt
+B
+```
+
+子类重写的方法会覆盖掉父类的方法
+
+
+
+但是如果方法加了private（这时子类写一个名字一样的方法相当于一个新的方法，不是重写）：
+
+```java
+class A {
+	public A() {
+		System.out.println("A");
+		t();
+	}
+
+	private void t() {
+		System.out.println("At");
+	}
+}
+
+class B extends A {
+	public B() {
+		System.out.println("B");
+	}
+
+	public void t() {
+		System.out.println("Bt");
+	}
+}
+```
+
+结果
+
+```java
+A
+At
+B
+```
+
+
+
