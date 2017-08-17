@@ -61,11 +61,10 @@
     * 使用ThreadLocal实现线程同步
   * [多线程数据传递](javaduo-xian-cheng/shu-ju-chuan-di.md)
 * [Java异常处理](javayi-chang-chu-li.md)
-  * [机制](javayi-chang-chu-li/ji-zhi.md)
+  * [Error](javayi-chang-chu-li/error.md)
+  * [Exception](javayi-chang-chu-li/exception.md)
 * [Java枚举](javamei-ju.md)
 * Java注解
-* [Java异常处理](javayi-chang-chu-li.md)
-  * [机制](javayi-chang-chu-li/ji-zhi.md)
 * [Java equal和==](java-equal548c3d3d.md)
 * [ORM](orm.md)
   * [Hibernate](orm/hibernate.md)
