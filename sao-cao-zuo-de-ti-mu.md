@@ -9,10 +9,10 @@
 > 答案：存在
 >
 > 解析：比如Double.NaN或Float.NaN
-
-> 12. 0.6332的数据类型是（）
 >
-> A float     B double     C Float      D Double
+> 1. 0.6332的数据类型是（）
+>
+> A float     B double     C Float      D Double
 >
 > 答案：B
 >

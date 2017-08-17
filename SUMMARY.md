@@ -77,8 +77,7 @@
 * Java注解
 * [ORM](orm.md)
   * [Hibernate](orm/hibernate.md)
-* 其他
+* [其他](qi-ta.md)
   * [Java equal和==](java-equal548c3d3d.md)
-
-
+  * [骚操作的题目](sao-cao-zuo-de-ti-mu.md)
 
