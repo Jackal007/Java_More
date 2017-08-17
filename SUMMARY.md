@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [介绍](README.md)
 * [Java优缺点](wei-shi-yao-java-ru-ci-liu-xing.md)
   * [面向对象](wei-shi-yao-java-ru-ci-liu-xing/mian-xiang-dui-xiang.md)
 * [Java容器类](chapter1.md)
