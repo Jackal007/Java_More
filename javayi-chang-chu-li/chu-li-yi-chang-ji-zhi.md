@@ -24,7 +24,5 @@
 
 
 
-在try里面执行return语句，则直接返回；
 
-在finally里面和在异常处理外面都有return语句，会先执行finall里面的return，但是不会影响外面的那个return语句
 

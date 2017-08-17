@@ -73,6 +73,11 @@
     * [Throwable类中的常用方法](javayi-chang-chu-li/pao-chu-yi-chang/throwablelei-zhong-de-chang-yong-fang-fa.md)
   * [异常类](javayi-chang-chu-li/yi-chang-lei.md)
     * [自定义异常](javayi-chang-chu-li/yi-chang-lei/zi-ding-yi-yi-chang.md)
+* [java.text.format](javatextformat.md)
+  * [DateFormat](javatextformat/dateformat.md)
+  * NumberFormat
+  * MessageFormat
+  * String类中的format方法
 * [Java枚举](javamei-ju.md)
 * Java注解
 * [ORM](orm.md)
