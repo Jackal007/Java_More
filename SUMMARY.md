@@ -67,4 +67,6 @@
 * [Java异常处理](javayi-chang-chu-li.md)
   * [机制](javayi-chang-chu-li/ji-zhi.md)
 * [Java equal和==](java-equal548c3d3d.md)
+* [ORM](orm.md)
+  * [Hibernate](orm/hibernate.md)
 
