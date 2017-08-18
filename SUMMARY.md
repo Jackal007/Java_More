@@ -23,10 +23,10 @@
       * [LinkedHashMap](chapter1/linked-hash-map.md)
       * [TreeMap](chapter1/treemap.md)
       * [WeakHashMap](chapter1/weakhashmap.md)
-  * [Java序列化](javaxu-lie-hua.md)
+  * [Java序列化Serialization](javaxu-lie-hua.md)
     * [序列化ID问题](javaxu-lie-hua/xu-lie-hua-id-wen-ti.md)
     * [静态变量序列化](javaxu-lie-hua/jing-tai-bian-liang-xu-lie-hua.md)
-  * [Java I/O流](javaliu-lei-ff08-stream.md)
+  * [Java 流Streams](javaliu-lei-ff08-stream.md)
     * [字符流](javaliu-lei-ff08-stream/zi-fu-liu.md)
       * [Reader](javaliu-lei-ff08-stream/zi-fu-liu/reader.md)
       * [Writter](javaliu-lei-ff08-stream/zi-fu-liu/writter.md)
@@ -46,16 +46,6 @@
 * [Java抽象机制](chou-xiang-ji-zhi.md)
   * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
   * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
-* [Java I/O流](javaliu-lei-ff08-stream.md)
-  * [字符流](javaliu-lei-ff08-stream/zi-fu-liu.md)
-    * [Reader](javaliu-lei-ff08-stream/zi-fu-liu/reader.md)
-    * [Writter](javaliu-lei-ff08-stream/zi-fu-liu/writter.md)
-  * [字节流](javaliu-lei-ff08-stream/zi-jie-liu.md)
-    * [InputStream](javaliu-lei-ff08-stream/zi-jie-liu/inputstream.md)
-    * [OutputStream](javaliu-lei-ff08-stream/zi-jie-liu/outputstream.md)
-  * [Java文件操作](javaliu-lei-ff08-stream/dui-wen-jian-de-cao-zuo.md)
-    * [字节流读写文件](javaliu-lei-ff08-stream/dui-wen-jian-de-cao-zuo/zi-jie-liu-du-xie-wen-jian.md)
-    * [字符流读写文件](javaliu-lei-ff08-stream/dui-wen-jian-de-cao-zuo/zi-fu-liu-du-xie-wen-jian.md)
 * [Java多线程](javaduo-xian-cheng.md)
   * [线程状态](javaduo-xian-cheng/xian-cheng-zhuang-tai.md)
     * [常用函数说明](javaduo-xian-cheng/xian-cheng-zhuang-tai/chang-yong-han-shu-shuo-ming.md)
@@ -84,6 +74,4 @@
 * [ORM](orm.md)
   * [Hibernate](orm/hibernate.md)
 * Java核心类库
-
-
 
