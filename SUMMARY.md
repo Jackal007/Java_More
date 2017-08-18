@@ -74,4 +74,5 @@
   * [Tomcat](java-webfu-wu-qi/tomcat.md)
 * Java主流框架
   * SpringMVC
+* [Java泛型](javafan-xing.md)
 
