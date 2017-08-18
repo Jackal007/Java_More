@@ -60,20 +60,17 @@
 * [Java抽象机制](chou-xiang-ji-zhi.md)
   * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
   * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
-* [Java序列化](javaxu-lie-hua.md)
-  * [序列化ID问题](javaxu-lie-hua/xu-lie-hua-id-wen-ti.md)
-  * [静态变量序列化](javaxu-lie-hua/jing-tai-bian-liang-xu-lie-hua.md)
 * [java.text.format](javatextformat.md)
   * [DateFormat](javatextformat/dateformat.md)
     * [SimpleDateFormat](javatextformat/dateformat/simpledateformat.md)
   * [NumberFormat](javatextformat/numberformat.md)
   * [MessageFormat](javatextformat/messageformat.md)
   * [String类中的format方法](javatextformat/stringlei-zhong-de-format-fang-fa.md)
-* [即时编译器技术 — JIT](ji-shi-bian-yi-qi-ji-zhu-jit.md)
-* [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
-* [ORM](orm.md)
-  * [Hibernate](orm/hibernate.md)
-* Java核心类库
+* JVM\(java虚拟机\)
+  * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
+  * [即时编译器技术 — JIT](ji-shi-bian-yi-qi-ji-zhu-jit.md)
+
+
 
 
 
