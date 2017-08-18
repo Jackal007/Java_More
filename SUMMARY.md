@@ -3,9 +3,9 @@
 * [序](README.md)
 * [Java优缺点](wei-shi-yao-java-ru-ci-liu-xing.md)
   * [面向对象](wei-shi-yao-java-ru-ci-liu-xing/mian-xiang-dui-xiang.md)
-* [Java注解](javazhu-jie.md)
+* [Java注解Annotation](javazhu-jie.md)
 * [Java核心类库](javahe-xin-lei-ku.md)
-  * [Java容器类](chapter1.md)
+  * [Java集合容器类](chapter1.md)
     * [Collection](chapter1/collection.md)
       * [List](chapter1/collection/list.md)
         * [ArrayList](chapter1/collection/list/arraylist.md)
@@ -36,6 +36,7 @@
     * [Java文件操作](javaliu-lei-ff08-stream/dui-wen-jian-de-cao-zuo.md)
       * [字节流读写文件](javaliu-lei-ff08-stream/dui-wen-jian-de-cao-zuo/zi-jie-liu-du-xie-wen-jian.md)
       * [字符流读写文件](javaliu-lei-ff08-stream/dui-wen-jian-de-cao-zuo/zi-fu-liu-du-xie-wen-jian.md)
+    * NIO（New IO）
   * [Java多线程multithreading](javaduo-xian-cheng.md)
     * [线程状态](javaduo-xian-cheng/xian-cheng-zhuang-tai.md)
       * [常用函数说明](javaduo-xian-cheng/xian-cheng-zhuang-tai/chang-yong-han-shu-shuo-ming.md)
@@ -51,6 +52,14 @@
       * 使用ThreadLocal实现线程同步
     * [多线程数据传递](javaduo-xian-cheng/shu-ju-chuan-di.md)
   * [Java反射reflection](javafan-shereflection.md)
+* [Java数据结构](javashu-ju-jie-gou.md)
+  * 枚举（Enumeration）
+  * 位集合（BitSet）
+  * 向量（Vector）
+  * 栈（Stack）
+  * 字典（Dictionary）
+  * 哈希表（Hashtable）
+  * 属性（Properties）
 * [Java的一些修饰符](privateprotectedpublicfinal.md)
   * [final](privateprotectedpublicfinal/1.md)
     * [final变量](privateprotectedpublicfinal/1/finalbian-liang.md)
@@ -69,10 +78,12 @@
   * [String类中的format方法](javatextformat/stringlei-zhong-de-format-fang-fa.md)
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
   * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
-  * [即时编译器技术 — JIT](ji-shi-bian-yi-qi-ji-zhu-jit.md)
+  * Java内存模型
+  * Java内存管理
+  * Java堆和栈
 * [Java Web服务器](java-webfu-wu-qi.md)
   * [Tomcat](java-webfu-wu-qi/tomcat.md)
 * Java主流框架
   * SpringMVC
-* [Java泛型](javafan-xing.md)
+* Java调试与测试
 
