@@ -79,9 +79,11 @@
   * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
 * Java调试与测试
   * [Junit](junit.md)
-    * [测试套件](junit/ce-shi-tao-jian.md)
-    * [核心注解](junit/he-xin-zhu-jie.md)
-    * [断言](junit/duan-yan.md)
+    * 使用
+      * [测试套件](junit/ce-shi-tao-jian.md)
+      * [核心注解](junit/he-xin-zhu-jie.md)
+      * [断言](junit/duan-yan.md)
+    * 实现细节
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
   * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
   * Java内存模型
@@ -93,4 +95,6 @@
   * SpringMVC
 * [项目管理工具](xiang-mu-guan-li-gong-ju.md)
 * [其他](qi-ta.md)
+
+
 
