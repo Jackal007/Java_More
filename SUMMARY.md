@@ -11,6 +11,7 @@
     * [@Inherited](javazhu-jie/yuan-zhu-jie/inherited.md)
   * [自定义注解](javazhu-jie/zi-ding-yi-zhu-jie.md)
   * [@deprecated ](javazhu-jie/deprecated.md)
+  * [@SuppressWarning](javazhu-jie/suppresswarning.md)
 * [Java核心类库](javahe-xin-lei-ku.md)
   * [Java集合容器类](chapter1.md)
     * [Collection](chapter1/collection.md)
