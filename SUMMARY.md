@@ -52,6 +52,12 @@
       * 使用ThreadLocal实现线程同步
     * [多线程数据传递](javaduo-xian-cheng/shu-ju-chuan-di.md)
   * [Java反射reflection](javafan-shereflection.md)
+  * [java.text.format](javatextformat.md)
+    * [DateFormat](javatextformat/dateformat.md)
+      * [SimpleDateFormat](javatextformat/dateformat/simpledateformat.md)
+    * [NumberFormat](javatextformat/numberformat.md)
+    * [MessageFormat](javatextformat/messageformat.md)
+    * [String类中的format方法](javatextformat/stringlei-zhong-de-format-fang-fa.md)
 * [Java数据结构](javashu-ju-jie-gou.md)
   * 枚举（Enumeration）
   * 位集合（BitSet）
@@ -70,12 +76,6 @@
 * [Java抽象机制](chou-xiang-ji-zhi.md)
   * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
   * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
-* [java.text.format](javatextformat.md)
-  * [DateFormat](javatextformat/dateformat.md)
-    * [SimpleDateFormat](javatextformat/dateformat/simpledateformat.md)
-  * [NumberFormat](javatextformat/numberformat.md)
-  * [MessageFormat](javatextformat/messageformat.md)
-  * [String类中的format方法](javatextformat/stringlei-zhong-de-format-fang-fa.md)
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
   * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
   * Java内存模型
@@ -86,4 +86,8 @@
 * Java主流框架
   * SpringMVC
 * Java调试与测试
+  * [Junit](junit.md)
+* [其他](qi-ta.md)
+
+
 
