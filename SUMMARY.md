@@ -78,6 +78,7 @@
   * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
 * Java调试与测试
   * [Junit](junit.md)
+    * [测试套件](junit/ce-shi-tao-jian.md)
     * [核心注解](junit/he-xin-zhu-jie.md)
     * [断言](junit/duan-yan.md)
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
