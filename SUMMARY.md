@@ -4,6 +4,7 @@
 * [Java优缺点](wei-shi-yao-java-ru-ci-liu-xing.md)
   * [面向对象](wei-shi-yao-java-ru-ci-liu-xing/mian-xiang-dui-xiang.md)
 * [Java注解Annotation](javazhu-jie.md)
+  * @deprecated 
 * [Java核心类库](javahe-xin-lei-ku.md)
   * [Java集合容器类](chapter1.md)
     * [Collection](chapter1/collection.md)
