@@ -195,7 +195,7 @@ Field[] method = aClass.getFields();
 
 Class.getField\(String name\)和 Class.getFields\(\)只会返回公有的变量，无法获取私有变量。下面例子定义了一个包含私有变量的类，在它下面是如何通过反射获取私有变量的例子：
 
-```
+```java
 public class PrivateObject {
 
   private String privateString = null;
