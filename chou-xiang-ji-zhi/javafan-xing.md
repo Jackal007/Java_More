@@ -117,8 +117,6 @@ public class InterDemo {
 
 > String和Integer不是Object的子类
 
-
-
 例子：
 
 ```java
@@ -146,19 +144,8 @@ public static void main(String[] args)  throws IllegalAccessException, Instantia
         Fruit fruit= createInstance(Fruit .class);
         People people= createInstance(People.class);
 }
+ 
 ```
-
-
-
-
-
-> ###### 作者：孔垂云
->
-> ###### 链接：http://www.jianshu.com/p/d4c00768d776
->
-> ###### 來源：简书
->
-> ###### 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 
 
