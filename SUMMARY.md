@@ -60,6 +60,7 @@
       * 使用ThreadLocal实现线程同步
     * [多线程数据传递](javaduo-xian-cheng/shu-ju-chuan-di.md)
   * [Java反射reflection](javafan-shereflection.md)
+    * [获取信息](javafan-shereflection/huo-qu-xin-xi.md)
   * [java.text.format](javatextformat.md)
     * [DateFormat](javatextformat/dateformat.md)
       * [SimpleDateFormat](javatextformat/dateformat/simpledateformat.md)
