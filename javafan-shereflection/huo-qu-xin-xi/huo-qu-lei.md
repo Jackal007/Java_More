@@ -25,7 +25,7 @@
 | base class | base class（只可能一个） | getSuperClass\(\) | Class |
 | implemented interfaces | 实现有哪些interfaces | getInterfaces\(\) | Class\[\] |
 | inner classes | 内部classes | getDeclaredClasses\(\) | Class\[\] |
-| outer class | 如果我们观察的class 本身是inner classes，那么相对它就会有个outer class。 | getDeclaringClass\(\) | Class |
+| outer class | 如果我们观察的class 本身是inner classes，那么相对它就会有个outer class | getDeclaringClass\(\) | Class |
 | isAssignableFrom | 用来判断一个类Class1和另一个类Class2是否相同或是另一个类的超类或接口 |  |  |
 
 上表中，列出了一些Java class内部信息的获取方式。所采用的方法几乎都是调用Class对象的成员方法（由此你就可以了解到Class类的用处了吧）。
