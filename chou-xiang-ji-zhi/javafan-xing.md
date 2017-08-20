@@ -104,13 +104,15 @@ public class InterDemo {
 
 ```java
 // ?表示任意的类型都是可以的
-        Collection<?> c5 = new ArrayList<Object>(); 
+Collection<?> c5 = new ArrayList<Object>();
+
 / ? extends E:向下限定，E及其子类
-        Collection<? extends Animal> c10 = new ArrayList<Animal>();
-        Collection<? extends Animal> c11 = new ArrayList<Dog>();
+Collection<? extends Animal> c10 = new ArrayList<Animal>();
+Collection<? extends Animal> c11 = new ArrayList<Dog>();
+
 // ? super E:向上限定，E极其父类
-        Collection<? super Animal> c13 = new ArrayList<Object>();
-        Collection<? super Animal> c14 = new ArrayList<Animal>();
+Collection<? super Animal> c13 = new ArrayList<Object>();
+Collection<? super Animal> c14 = new ArrayList<Animal>();
 ```
 
 **使用大写字母A,B,C,D......X,Y,Z定义的，就都是泛型，把T换成A也一样，这里T只是名字上的意义而已**
@@ -124,7 +126,7 @@ public class InterDemo {
 * **E \(element\)**
    代表Element
 
-
+String和Integer不是Object的子类
 
 > ```
 > 作者：孔垂云
