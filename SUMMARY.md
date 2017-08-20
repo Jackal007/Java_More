@@ -62,6 +62,7 @@
   * [Java反射reflection](javafan-shereflection.md)
     * [获取信息](javafan-shereflection/huo-qu-xin-xi.md)
       * [获取方法](javafan-shereflection/huo-qu-xin-xi/huo-qu-fang-fa.md)
+      * [调用方法](javafan-shereflection/huo-qu-xin-xi/diao-yong-fang-fa.md)
   * [java.text.format](javatextformat.md)
     * [DateFormat](javatextformat/dateformat.md)
       * [SimpleDateFormat](javatextformat/dateformat/simpledateformat.md)
