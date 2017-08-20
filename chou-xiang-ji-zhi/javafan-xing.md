@@ -51,7 +51,7 @@ public class ObjectToolDemo {
 ```java
 * * 泛型方法：把泛型定义在方法上 **
 public class ObjectTool {  
-      public <T> void show(T t) {
+      public <T>void void show(T t) {
            System.out.println(t); 
       }
 }
@@ -144,7 +144,6 @@ public static void main(String[] args)  throws IllegalAccessException, Instantia
         Fruit fruit= createInstance(Fruit .class);
         People people= createInstance(People.class);
 }
- 
 ```
 
 
