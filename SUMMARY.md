@@ -52,9 +52,11 @@
     * [多线程数据传递](javaduo-xian-cheng/shu-ju-chuan-di.md)
   * [Java反射reflection](javafan-shereflection.md)
     * [获取](javafan-shereflection/huo-qu-xin-xi.md)
+      * 获取类
+      * 获取成员变量
       * [获取方法](javafan-shereflection/huo-qu-xin-xi/huo-qu-fang-fa.md)
-      * [调用方法](javafan-shereflection/huo-qu-xin-xi/diao-yong-fang-fa.md)
-      * [获取构造函数](javafan-shereflection/huo-qu-xin-xi/huo-qu-gou-zao-han-shu.md)
+        * [获取构造函数](javafan-shereflection/huo-qu-xin-xi/huo-qu-gou-zao-han-shu.md)
+        * [调用方法](javafan-shereflection/huo-qu-xin-xi/diao-yong-fang-fa.md)
   * [java.text.format](javatextformat.md)
     * [DateFormat](javatextformat/dateformat.md)
       * [SimpleDateFormat](javatextformat/dateformat/simpledateformat.md)
@@ -111,4 +113,6 @@
 * [其他](qi-ta.md)
   * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
   * [aop](qi-ta/aop.md)
+
+
 
