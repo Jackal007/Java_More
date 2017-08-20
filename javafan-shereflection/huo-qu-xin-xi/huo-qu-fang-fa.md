@@ -2,9 +2,11 @@
 
 参数解释：
 
-           name： method的名称
+```
+       name： method的名称
 
-           parameterTypes：method的参数类型的列表（参数顺序需按声明method时的参数列表排列）
+       parameterTypes：method的参数类型的列表（参数顺序需按声明method时的参数列表排列）
+```
 
 返回：符合method名称和参数的method对象
 
@@ -31,7 +33,13 @@ Method m2 = Employee.class.getMethod("raiseSalary",double.class);
 
 上面例子分别获得了Employee类的getName方法和raiseSalary方法的方法指针m1,m2。
 
-#### getDeclareMethods
 
-获取所有的methods对象
+
+#### Method\[\] getMethods\(\)
+
+#### Method getDeclaredMethod\(String name, Class\[\] params\)
+
+#### Method\[\] getDeclaredMethods\(\)  //获取所有的methods对象
+
+
 
