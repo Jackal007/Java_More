@@ -68,7 +68,7 @@
     * [MessageFormat](javatextformat/messageformat.md)
     * [String类中的format方法](javatextformat/stringlei-zhong-de-format-fang-fa.md)
 * [Java数据结构](javashu-ju-jie-gou.md)
-  * 枚举（Enumeration）
+  * [枚举（Enumeration）](javashu-ju-jie-gou/mei-juff08-enumeration.md)
   * 位集合（BitSet）
   * 向量（Vector）
   * 栈（Stack）
@@ -104,4 +104,5 @@
   * SpringMVC
 * [项目管理工具](xiang-mu-guan-li-gong-ju.md)
 * [其他](qi-ta.md)
+  * [aop](qi-ta/aop.md)
 
