@@ -98,9 +98,28 @@ public class InterDemo {
      i.show("hello"); 
      Inter<Integer> ii = new InterImpl<Integer>(); 
      ii.show(100);
-}
+  }
 }
 ```
+
+---
+
+**使用大写字母A,B,C,D......X,Y,Z定义的，就都是泛型，把T换成A也一样，这里T只是名字上的意义而已**
+
+* **？**
+   表示不确定的java类型
+* **T \(type\)**
+   表示具体的一个java类型
+* **K V \(key value\)**
+   分别代表java键值中的Key Value
+* **E \(element\)**
+   代表Element
+
+> String和Integer不是Object的子类
+
+
+
+例子：
 
 ```java
 // ?表示任意的类型都是可以的
@@ -115,25 +134,31 @@ Collection<? super Animal> c13 = new ArrayList<Object>();
 Collection<? super Animal> c14 = new ArrayList<Animal>();
 ```
 
-**使用大写字母A,B,C,D......X,Y,Z定义的，就都是泛型，把T换成A也一样，这里T只是名字上的意义而已**
+```java
+Class<?> c=xxx;//表示任意类型的类
+People people = (People) Class.forName("com.demo.People").newInstance();//需要强制类型转换
 
-* **？**
-   表示不确定的java类型
-* **T \(type\)**
-   表示具体的一个java类型
-* **K V \(key value\)**
-   分别代表java键值中的Key Value
-* **E \(element\)**
-   代表Element
+/*不需要强制类型转换*/
+public static <T> createInstance(Class<T> clazz) throws IllegalAccessException, InstantiationException {
+        return clazz.newInstance();
+}
+public static void main(String[] args)  throws IllegalAccessException, InstantiationException  {
+        Fruit fruit= createInstance(Fruit .class);
+        People people= createInstance(People.class);
+}
+```
 
-String和Integer不是Object的子类
 
-> ```
-> 作者：孔垂云
-> 链接：http://www.jianshu.com/p/d4c00768d776
-> 來源：简书
-> 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-> ```
+
+
+
+> ###### 作者：孔垂云
+>
+> ###### 链接：http://www.jianshu.com/p/d4c00768d776
+>
+> ###### 來源：简书
+>
+> ###### 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 
 
