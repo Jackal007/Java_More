@@ -111,7 +111,8 @@
 * [项目管理工具](xiang-mu-guan-li-gong-ju.md)
   * maven
 * [其他](qi-ta.md)
-  * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
+  * [可变参数](qi-ta/ke-bian-can-shu.md)
   * [aop](qi-ta/aop.md)
   * [长度为0的数组](qi-ta/chang-du-wei-0-de-shu-zu.md)
+  * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
 
