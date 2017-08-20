@@ -1,24 +1,26 @@
 #### Method getMethod\(String name,Class...parameterTypes\)
 
-参数解释：name： method的名称
+参数解释：
 
-               parameterTypes：method的参数类型的列表（参数顺序需按声明method时的参数列表排列）
+           name： method的名称
+
+           parameterTypes：method的参数类型的列表（参数顺序需按声明method时的参数列表排列）
 
 返回：符合method名称和参数的method对象
 
 抛出错误：
 
-             NoSuchMethodException   
+```java
+         NoSuchMethodException   //没有找到所要查询的Method对象  或  Method名称为“<init>”或“<clinit>”
+```
 
-   原因：没有找到所要查询的Method对象  或  Method名称为“&lt;init&gt;”或“&lt;clinit&gt;”
+```java
+           NullPointerException    //所要查询的Method对象的名称为null
+```
 
-               NullPointerException
-
-   原因：所要查询的Method对象的名称为null
-
-                SecurityException
-
-    原因：调用的类或其父类没有调用权限
+```java
+            SecurityException    //原因：调用的类或其父类没有调用权限
+```
 
 例：
 
