@@ -220,7 +220,7 @@ System.out.println("fieldValue = " + fieldValue);
 **访问私有方法**  
 访问一个私有方法你需要调用 Class.getDeclaredMethod\(String name, Class\[\] parameterTypes\)或者 Class.getDeclaredMethods\(\) 方法。 Class.getMethod\(String name, Class\[\] parameterTypes\)和 Class.getMethods\(\)方法，只会返回公有的方法，无法获取私有方法。下面例子定义了一个包含私有方法的类，在它下面是如何通过反射获取私有方法的例子：
 
-```
+```java
 public class PrivateObject {
 
   private String privateString = null;
@@ -329,7 +329,7 @@ for(Type genericParameterType : genericParameterTypes){
 泛型变量类型  
 同样可以通过反射来访问公有（Public）变量的泛型类型，无论这个变量是一个类的静态成员变量或是实例成员变量。你可以在“[Java Reflection: Fields](http://tutorials.jenkov.com/java-reflection/fields.html)”中阅读到有关如何获取 Field 对象的相关内容。这是之前的一个例子，一个定义了一个名为 stringList 的成员变量的类。
 
-```
+```java
 method = Myclass.class.getMethod("setStringList", List.class);
 
 Type[] genericParameterTypes = method.getGenericParameterTypes();
@@ -347,6 +347,4 @@ for(Type genericParameterType : genericParameterTypes){
 ```
 
 这段代码会打印出”fieldArgClass = java.lang.String”。Type\[\]数组 fieldArgClass 只有一个结果 – 一个代表 java.lang.String 的 Class 类的实例。Class 类实现了 Type 接口。
-
-
 
