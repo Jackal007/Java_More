@@ -20,7 +20,7 @@
 | package | class隶属的package | getPackage\(\) | Package |
 | import | class导入哪些classes | 间接获取 |  |
 | modifier | class（或methods, fields）的属性 | int getModifiers\(\)                Modifier.toString\(int\)         Modifier.isInterface\(int\) | int   String    bool |
-| class name or interface name | class/interface | getName\(\) | String |
+| class name or interface name | class/interface | getName\(\)  | String |
 | type parameters | 参数化类型的名称 | getTypeParameters\(\) | TypeVariable &lt;Class&gt;\[\] |
 | base class | base class（只可能一个） | getSuperClass\(\) | Class |
 | implemented interfaces | 实现有哪些interfaces | getInterfaces\(\) | Class\[\] |
