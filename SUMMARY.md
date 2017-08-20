@@ -87,6 +87,7 @@
 * [Java抽象机制](chou-xiang-ji-zhi.md)
   * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
   * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
+  * [Java泛型](chou-xiang-ji-zhi/javafan-xing.md)
 * Java调试与测试
   * [Junit](junit.md)
     * 使用
@@ -105,6 +106,7 @@
 * Java主流框架
   * SpringMVC
 * [项目管理工具](xiang-mu-guan-li-gong-ju.md)
+  * maven
 * [其他](qi-ta.md)
   * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
   * [aop](qi-ta/aop.md)
