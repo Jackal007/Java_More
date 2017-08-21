@@ -103,10 +103,13 @@
   * [处理异常机制](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi.md)
     * [try-catch语句](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi/try-catchyu-ju.md)
     * [trycatch-finally语句](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi/trycatch-finallyyu-ju.md)
-  * 抛出异常
+  * [抛出异常](javayi-chang-chu-li/pao-chu-yi-chang.md)
     * [使用throw抛出异常](javayi-chang-chu-li/shi-yong-throw-pao-chu-yi-chang.md)
     * [throwable类中的常用方法](javayi-chang-chu-li/throwablelei-zhong-de-chang-yong-fang-fa.md)
+    * [throws抛出异常](javayi-chang-chu-li/throwspao-chu-yi-chang.md)
+    * [异常链](javayi-chang-chu-li/yi-chang-lian.md)
   * 异常类
+    * [自定义异常](javayi-chang-chu-li/zi-ding-yi-yi-chang.md)
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
   * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
   * Java内存模型
