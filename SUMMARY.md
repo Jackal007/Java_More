@@ -54,9 +54,10 @@
     * [获取](javafan-shereflection/huo-qu-xin-xi.md)
       * [获取类](javafan-shereflection/huo-qu-xin-xi/huo-qu-lei.md)
       * [获取成员变量](javafan-shereflection/huo-qu-xin-xi/huo-qu-cheng-yuan-bian-liang.md)
+      * [获取构造函数](javafan-shereflection/huo-qu-xin-xi/huo-qu-gou-zao-han-shu.md)
       * [获取方法](javafan-shereflection/huo-qu-xin-xi/huo-qu-fang-fa.md)
-        * [获取构造函数](javafan-shereflection/huo-qu-xin-xi/huo-qu-gou-zao-han-shu.md)
-        * [调用方法](javafan-shereflection/huo-qu-xin-xi/diao-yong-fang-fa.md)
+    * 使用
+      * [调用方法](javafan-shereflection/huo-qu-xin-xi/diao-yong-fang-fa.md)
   * [java.text.format](javatextformat.md)
     * [DateFormat](javatextformat/dateformat.md)
       * [SimpleDateFormat](javatextformat/dateformat/simpledateformat.md)
@@ -126,4 +127,6 @@
   * [长度为0的数组](qi-ta/chang-du-wei-0-de-shu-zu.md)
   * [可变长参数](qi-ta/ke-bian-can-shu.md)
   * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
+
+
 
