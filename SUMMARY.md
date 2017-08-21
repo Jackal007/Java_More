@@ -101,7 +101,7 @@
       * [断言](junit/duan-yan.md)
     * [实现细节](junit/shi-xian-xi-jie.md)
       * [runner](junit/shi-xian-xi-jie/runner.md)
-* [Java异常处理](javayi-chang-chu-li.md)
+* [Java异常处理](Java异常处理.md)
   * [处理异常机制](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi.md)
     * [try-catch语句](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi/try-catchyu-ju.md)
     * [trycatch-finally语句](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi/trycatch-finallyyu-ju.md)
