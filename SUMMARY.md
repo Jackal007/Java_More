@@ -81,7 +81,7 @@
   * 栈（Stack）
   * 字典（Dictionary）
   * 哈希表（Hashtable）
-  * 属性（Properties）
+  * [属性（Properties）](javashu-ju-jie-gou/shu-xing-ff08-properties.md)
 * [Java的一些修饰符](privateprotectedpublicfinal.md)
   * [final](privateprotectedpublicfinal/1.md)
     * [final变量](privateprotectedpublicfinal/1/finalbian-liang.md)
@@ -128,6 +128,4 @@
   * [长度为0的数组](qi-ta/chang-du-wei-0-de-shu-zu.md)
   * [可变长参数](qi-ta/ke-bian-can-shu.md)
   * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
-
-
 
