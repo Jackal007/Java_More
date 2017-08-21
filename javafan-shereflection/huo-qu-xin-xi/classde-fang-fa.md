@@ -1,6 +1,8 @@
 #### public &lt;U&gt; Class&lt;? extends U&gt; asSubclass\(Class&lt;U&gt; clazz\)
 
-这是Java.lang.Class中的一个方法，作用是将调用这个方法的class对象转换成由clazz参数所表示的class对象的某个子类。举例来说，
+这是Java.lang.Class中的一个方法，作用是将调用这个方法的class对象转换成由clazz参数所表示的class对象的某个子类。**用于窄化未知的Class类型的范围**（class.foname\(\)的返回值类型是Class&lt;?&gt;，所以必要的时候可以窄化它）
+
+举例来说，
 
 List&lt;String&gt; strList = new ArrayList&lt;String&gt;\(\);
 
@@ -11,6 +13,4 @@ Class&lt;? extends List&gt; strList\_cast = strList.getClass\(\).asSubclass\(Lis
 #### isAssignableFrom
 
 用来判断一个类Class1和另一个类Class2是否相同或是另一个类的超类或接口
-
-
 
