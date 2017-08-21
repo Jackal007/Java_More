@@ -1,8 +1,10 @@
 # Java Properties 类
 
-Properties 继承于 Hashtable.表示一个持久的属性集.属性列表中每个键及其对应值都是一个字符串。
-
-Properties 类被许多Java类使用。例如，在获取环境变量时它就作为System.getProperties\(\)方法的返回值。
+> Properties属性文件在JAVA应用程序中是经常可以看得见的，也是特别重要的一类文件。它用来配置应用程序的一些信息，不过这些信息一般都是比较少的数据，没有必要使用数据库文件来保存，而使用一般的文本文件来保存，如果是通过File直接保存的话，可能在存储和读取上都不是很方便，但如果保存为Properties文件就不一样了，属性文件都有键值对应的，在JAVA的包中，有提供专门的操作属性文件的类。这个类就是 java.uitl.Properties类，由于Properties类是一个集合类，所以，Properties会将属性以集合的方式读写。
+>
+> Properties 继承于 Hashtable.表示一个持久的属性集.属性列表中每个键及其对应值都是一个字符串。
+>
+> Properties 类被许多Java类使用。例如，在获取环境变量时它就作为System.getProperties\(\)方法的返回值。
 
 Properties 定义如下实例变量.这个变量持有一个Properties对象相关的默认属性列表。
 
