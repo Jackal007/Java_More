@@ -99,6 +99,7 @@
       * [断言](junit/duan-yan.md)
     * [实现细节](junit/shi-xian-xi-jie.md)
       * [runner](junit/shi-xian-xi-jie/runner.md)
+* [Java异常处理](javayi-chang-chu-li.md)
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
   * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
   * Java内存模型
@@ -110,9 +111,4 @@
   * SpringMVC
 * [项目管理工具](xiang-mu-guan-li-gong-ju.md)
   * maven
-* [其他](qi-ta.md)
-  * [可变参数](qi-ta/ke-bian-can-shu.md)
-  * [aop](qi-ta/aop.md)
-  * [长度为0的数组](qi-ta/chang-du-wei-0-de-shu-zu.md)
-  * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
 
