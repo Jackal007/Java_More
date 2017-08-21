@@ -1,8 +1,8 @@
 # Summary
 
 * [序](README.md)
-* [Java优缺点](wei-shi-yao-java-ru-ci-liu-xing.md)
-  * [面向对象](wei-shi-yao-java-ru-ci-liu-xing/mian-xiang-dui-xiang.md)
+* [Java优缺点](Java优缺点.md)
+  * [面向对象](Java优缺点/面向对象.md)
 * [Java核心类库](javahe-xin-lei-ku.md)
   * [Java集合容器类](chapter1.md)
     * [Collection](chapter1/collection.md)
@@ -93,7 +93,7 @@
   * [Java泛型](chou-xiang-ji-zhi/javafan-xing.md)
 * Java调试与测试
   * [Junit](junit.md)
-    * 使用
+    * [使用](junit/shi-yong.md)
       * [测试套件](junit/ce-shi-tao-jian.md)
       * [核心注解](junit/he-xin-zhu-jie.md)
       * [断言](junit/duan-yan.md)
