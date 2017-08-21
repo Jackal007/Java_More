@@ -71,6 +71,15 @@ public class PropDemo {
       str = capitals.getProperty("Florida", "Not Found");
       System.out.println("The capital of Florida is "
           + str + ".");
+      //将Properties集合保存到流中 
+      FileOutputStream fos = new FileOutputStream("xxx.properties"); 
+      //将Properties集合保存到流中 
+      prop.store(fos, "Copyright (c) xxx Studio"); 
+      fos.close();
+      //将属性文件流装载到Properties对象中
+      FileInputStream fis = new FileInputStream("prop.properties");    
+      prop.load(fis);
+      fis.close();
    }
 }
 ```
