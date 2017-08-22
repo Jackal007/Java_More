@@ -125,8 +125,8 @@
 * [项目管理工具](xiang-mu-guan-li-gong-ju.md)
   * maven
 * [Eclipse](eclipse.md)
-  * [方便编辑](eclipse/fang-bian-bian-ji.md)
-    * [代码折叠](eclipse/fang-bian-bian-ji/dai-ma-zhe-die.md)
+  * [方便编辑](eclipse/方便编辑.md)
+    * [代码折叠](eclipse/方便编辑/代码折叠.md)
 * [其他](qi-ta.md)
   * [aop](qi-ta/aop.md)
   * [长度为0的数组](qi-ta/chang-du-wei-0-de-shu-zu.md)
