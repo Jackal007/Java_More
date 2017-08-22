@@ -1,8 +1,10 @@
-Java 中实现多线程有两种方法：继承 Thread 类、实现 Runnable 接口，在程序开发中只要是多线程，肯定永远以实现 Runnable 接口为主，因为实现 Runnable 接口相比继承 Thread 类有如下优势：
+Java 中实现多线程有两种方法：继承 Thread 类、实现 Runnable 接口，在程序开发中只要是多线程，肯定永远以实现 Runnable 接口为主，因为实现 **Runnable 接口相比继承 Thread 类有如下优势**：
 
 * 可以避免由于 Java 的单继承特性而带来的局限；
 * 增强程序的健壮性，代码能够被多个线程共享，代码与数据是独立的；
 * 适合多个相同程序代码的线程区处理**同一资源**的情况。
+
+---
 
 ```java
 class MyThread extends Thread{  
@@ -57,7 +59,7 @@ public class RunnableDemo{
 
 from [http://www.cnblogs.com/wxd0108/p/5479442.html](http://www.cnblogs.com/wxd0108/p/5479442.html)
 
-
+---
 
 ## 一个奇葩
 
@@ -91,7 +93,7 @@ class MyRunnable implements Runnable {
 class MyThread extends Thread {
 
     private int i = 0;
-    
+
     public MyThread(Runnable runnable){
         super(runnable);
     }
