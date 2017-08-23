@@ -17,6 +17,7 @@
         * [TreeSet](chapter1/collection/set/treeset.md)
       * Queue
         * PriorityQueue
+      * [排序问题](chapter1/collection/pai-xu-wen-ti.md)
     * [Map](chapter1/map.md)
       * [HashMap](chapter1/hashmap.md)
         * [与HashTable的区别](chapter1/hashmap/yu-hashtable-de-qu-bie.md)
@@ -119,7 +120,7 @@
   * Java内存管理
   * Java堆和栈
 * [Java Web服务器](java-webfu-wu-qi.md)
-  * [Tomcat](java-webfu-wu-qi/tomcat.md)
+  * tomcat
 * Java主流框架
   * SpringMVC
 * [项目管理工具](xiang-mu-guan-li-gong-ju.md)
