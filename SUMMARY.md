@@ -119,7 +119,7 @@
   * Java内存模型
   * Java内存管理
   * Java堆和栈
-* [Java Web服务器](java-webfu-wu-qi.md)
+* [Java Web服务器](java-web服务器/tomcat.md)
   * tomcat
 * Java主流框架
   * SpringMVC
