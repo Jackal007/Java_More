@@ -1,14 +1,12 @@
 **一、File的构造方法**
 
 ```java
-public File(String pathname)
-public File(String parent, String child)
-public File(File parent, String child)
+public File(String pathname)//传入一个表示路径的字符串，可以是绝对路径也可以是相对路径
+public File(String parent, String child)//果parent为空的话，自然是以child为路径初始化参数，这就等于第一种方式了
+public File(File parent, String child)//传入File类的对象作为parent，其实内部是将parent.path的路径值拿来执行第二种构造方法
 ```
 
-```
- 主要有三个构造方法，第一个构造方法允许传入一个表示路径的字符串，可以是绝对路径也可以是相对路径。内部调用文件系统类的方法为File对象中的实例域初始化。第二个构造方法允许传入两个字符串，由命名可以看出必然是可以拼接的，当然如果parent为空的话，自然是以child为路径初始化参数，这就等于第一种方式了。第三种构造方法，传入了一个File类的对象作为parent，其实在内部还是将此parent.path的路径值拿出来，执行的是和第二种构造方法一样的操作。
-```
+
 
 **二、文件名和文件路径操作**  
      我们知道，File对象既可以存文件也可以存路径，那么对他们的相关操作有如下几种：
