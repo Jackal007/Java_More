@@ -17,7 +17,7 @@
         * [TreeSet](chapter1/collection/set/treeset.md)
       * Queue
         * PriorityQueue
-      * [排序问题](chapter1/collection/pai-xu-wen-ti.md)
+      * [排序问题](chapter1/collection/排序问题.md)
     * [Map](chapter1/map.md)
       * [HashMap](chapter1/hashmap.md)
         * [与HashTable的区别](chapter1/hashmap/yu-hashtable-de-qu-bie.md)
