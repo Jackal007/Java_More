@@ -2,5 +2,5 @@ System.out.println\(\)
 
 System.in
 
-System.getProperties\(\)
+System.getProperty\(\)
 
