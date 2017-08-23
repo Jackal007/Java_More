@@ -95,6 +95,7 @@
   * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
   * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
   * [Java泛型](chou-xiang-ji-zhi/javafan-xing.md)
+* [System类](systemlei.md)
 * Java调试与测试
   * [Junit](junit.md)
     * [使用](junit/shi-yong.md)
@@ -128,9 +129,4 @@
 * [Eclipse](eclipse.md)
   * [方便编辑](eclipse/方便编辑.md)
     * [代码折叠](eclipse/方便编辑/代码折叠.md)
-* [其他](qi-ta.md)
-  * [aop](qi-ta/aop.md)
-  * [长度为0的数组](qi-ta/chang-du-wei-0-de-shu-zu.md)
-  * [可变长参数](qi-ta/ke-bian-can-shu.md)
-  * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
 
