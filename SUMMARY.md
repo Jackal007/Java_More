@@ -112,7 +112,7 @@
         * TestResult
         * TestListener
       * [extensions](junit/shi-xian-xi-jie/extensions.md)
-        * ActiveTestSuite
+        * [ActiveTestSuite](junit/shi-xian-xi-jie/extensions/activetestsuite.md)
         * [TestDecorator](junit/shi-xian-xi-jie/extensions/testdecorator.md)
         * [TestSetup](junit/shi-xian-xi-jie/extensions/testsetup.md)
 * [Java异常处理](Java异常处理.md)
