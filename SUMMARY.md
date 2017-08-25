@@ -117,6 +117,9 @@
         * [TestDecorator](junit/shi-xian-xi-jie/extensions/testdecorator.md)
         * [TestSetup](junit/shi-xian-xi-jie/extensions/testsetup.md)
         * [RepeatedTest](junit/shi-xian-xi-jie/extensions/repeatedtest.md)
+      * [textui](junit/shi-xian-xi-jie/textui.md)
+        * ResultPrinter
+        * [TestRunner](junit/shi-xian-xi-jie/textui/testrunner.md)
 * [Java异常处理](Java异常处理.md)
   * [处理异常机制](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi.md)
     * [try-catch语句](javayi-chang-chu-li/chu-li-yi-chang-ji-zhi/try-catchyu-ju.md)
