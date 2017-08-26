@@ -5,6 +5,7 @@
 * [Java优缺点](Java优缺点.md)
   * [面向对象](Java优缺点/面向对象.md)
 * [Java核心类库](javahe-xin-lei-ku.md)
+  * [Java数据类型](javashu-ju-lei-xing.md)
   * [Java集合容器类](chapter1.md)
     * [Collection](chapter1/collection.md)
       * [List](chapter1/collection/list.md)
