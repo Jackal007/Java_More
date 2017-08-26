@@ -147,4 +147,9 @@
 * [Eclipse](eclipse.md)
   * [方便编辑](eclipse/方便编辑.md)
     * [代码折叠](eclipse/方便编辑/代码折叠.md)
+* [其他](qi-ta.md)
+  * [AOP](qi-ta/aop.md)
+  * [长度为0的数组](qi-ta/chang-du-wei-0-de-shu-zu.md)
+  * [可变参数](qi-ta/ke-bian-can-shu.md)
+  * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
 
