@@ -142,7 +142,7 @@
   * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
   * Java内存模型
   * Java内存管理
-  * Java堆和栈
+  * [Java堆和栈](javadui-he-zhan.md)
 * [Java Web服务器](java-web服务器/tomcat.md)
   * tomcat
 * Java主流框架
