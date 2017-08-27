@@ -20,10 +20,23 @@
 > **short s1 = 1; s1 = s1 + 1;有错吗?short s1 = 1; s1 += 1;有错吗**
 >
 > 答：对于short s1 = 1; s1 = s1 + 1;由于1是int类型，因此s1+1运算结果也是int 型，需要强制转换类型才能赋值给short型。而short s1 = 1; s1 += 1;可以正确编译，因为s1+= 1;相当于s1 = \(short\)\(s1 + 1\);其中有隐含的强制类型转换。
-
-
-
 >
+> 以下代码在编译和运行过程中会出现什么情况
+>
+> ```java
+> public class TestDemo{
+>     private int count;
+>     public static void main(String[] args) {
+>         TestDemo test=new TestDemo(88);
+>         System.out.println(test.count);
+>     }
+>      TestDemo(int a) {
+>          count=a;
+>     }
+> }
+> ```
+>
+> 编译运行通过，输出结果是88，因为是在类中调用的
 
 
 
