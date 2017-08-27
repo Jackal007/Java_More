@@ -11,7 +11,7 @@
         * [StringBuilder](javabao-zhuang-lei/string/stringbuilder.md)
   * 多态
     * [Java泛型](chou-xiang-ji-zhi/javafan-xing.md)
-  * [Java抽象机制](chou-xiang-ji-zhi.md)
+  * [抽象](chou-xiang-ji-zhi.md)
     * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
     * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
   * [继承](Java优缺点/ji-cheng.md)
