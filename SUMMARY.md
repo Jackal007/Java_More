@@ -93,6 +93,7 @@
     * [final方法](privateprotectedpublicfinal/1/finalfang-fa.md)
     * [final类](privateprotectedpublicfinal/1/finalei.md)
   * [private、protected、public](privateprotectedpublicfinal/privateprotectedpublic.md)
+  * [static](privateprotectedpublicfinal/static.md)
 * [Java抽象机制](chou-xiang-ji-zhi.md)
   * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
   * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
