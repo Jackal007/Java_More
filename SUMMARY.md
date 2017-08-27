@@ -20,6 +20,7 @@
       * Queue
         * PriorityQueue
       * [排序问题](chapter1/collection/排序问题.md)
+      * [快速失败和安全失败](kuai-su-shi-bai-he-an-quan-shi-bai.md)
     * [Map](chapter1/map.md)
       * [HashMap](chapter1/hashmap.md)
         * [与HashTable的区别](chapter1/hashmap/yu-hashtable-de-qu-bie.md)
