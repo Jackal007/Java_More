@@ -10,5 +10,5 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 本章大部分内容转载自\(链接：[http://www.jianshu.com/p/047e33fdefd2\](http://www.jianshu.com/p/047e33fdefd2%29\) & [http://www.cnblogs.com/skywang12345](http://www.cnblogs.com/skywang12345)
 
-![](/assets/ksdalfk.png)
+![](/assets/ksdalfk.png)存放的是对象的引用
 
