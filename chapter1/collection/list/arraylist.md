@@ -85,6 +85,12 @@ void                 removeRange(int fromIndex, int toIndex)
 
 **遍历ArrayList时，使用随机访问\(通过索引序号访问\)效率最高，而使用迭代器的效率最低！**
 
+### 
+
+### 
+
+### 
+
 ### 线程同步
 
 **IsSynchronized属性和ArrayList.Synchronized方法**
@@ -103,7 +109,7 @@ void                 removeRange(int fromIndex, int toIndex)
 > 5. list.Add\(“Add a Item” \);  
 > 6. }
 
-**                  
+**                    
 **
 
 **如果使用ArrayList.Synchronized方法返回的实例，那么就不用考虑线程同步的问题，这个实例本身就是线程安全的，实际上ArrayList内部实现了一个保证线程同步的内部类，ArrayList.Synchronized返回的就是这个类的实例，它里面的每个属性都是用了lock关键字来保证线程同步。**
