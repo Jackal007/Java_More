@@ -1,17 +1,3 @@
-> **一个保存键值映射的对象。 映射Map中不能包含重复的key，每一个key最多对应一个value。**
->
-> **这个接口替代了原来的一个抽象类Dictionary。**
->
-> **Map集合提供3种遍历访问方法：**
->
-> **1.获得所有key的集合然后通过key访问value;**
->
-> **2.获得value的集合;**
->
-> **.获得key-value键值对的集合（key-value键值对其实是一个对象，里面分别有key和value）;**
->
-> ** Map的访问顺序取决于Map的遍历访问方法的遍历顺序。 有的Map，比如TreeMap可以保证访问顺序，但是有的比如HashMap，无法保证访问顺序。**
-
 ### 接口定义如下：
 
 ```java
@@ -29,8 +15,7 @@ public interface Map<K,V> {
 
 ### 三个遍历Map的方法
 
-#### 1.Set&lt;K&gt; keySet\(\)
-
+* ##### Set&lt;K&gt; keySet\(\)
 会返回所有key的Set集合，因为key不可以重复，所以返回的是Set格式，而不是List格式。（之后会说明Set，List区别。这里先告诉一点Set集合内元素是不可以重复的，而List内是可以重复的） 获取到所有key的Set集合后，由于Set是Collection类型的，所以可以通过Iterator去遍历所有的key，然后再通过get方法获取value。如下
 
 ```java
@@ -52,8 +37,7 @@ while
 }
 ```
 
-#### 2.Collection&lt;V&gt; values\(\)
-
+* ##### Collection&lt;V&gt; values\(\)
 直接获取values的集合，无法再获取到key。所以如果只需要value的场景可以用这个方法。获取到后使用Iterator去遍历所有的value。
 
 ```java
@@ -68,8 +52,7 @@ Collection<String> collection = map.values();
 System.out.println(collection);
 ```
 
-#### 3.Set&lt; Map.Entry&lt; K, V&gt;&gt; entrySet\(\)
-
+* ##### Set&lt; Map.Entry&lt; K, V&gt;&gt; entrySet\(\)
 是将整个Entry对象作为元素返回所有的数据。然后遍历Entry，分别再通过getKey和getValue获取key和value。如下
 
 ```java
@@ -96,8 +79,6 @@ while(it.hasNext()) {
 
 通过以上3种遍历方式我们可以知道，如果你只想获取key，建议使用keySet。如果只想获取value，建议使用values。如果key value希望遍历，建议使用entrySet。（虽然通过keySet可以获得key再间接获得value，但是效率没entrySet高，不建议使用这种方法）
 
-
-
 | Map实现 |
 | :--- |
 
@@ -109,8 +90,19 @@ while(it.hasNext()) {
 | TreeMap | 具有元素排序功能 | 红黑树 |
 | WeakHashMap | 弱键映射，映射之外无引用的键，可以被垃圾回收 | 哈希散列表 |
 
-  
-
+> 一个保存键值映射的对象。 映射Map中不能包含重复的key，每一个key最多对应一个value。
+>
+> 这个接口替代了原来的一个抽象类Dictionary。
+>
+> Map集合提供3种遍历访问方法：
+>
+> 1.获得所有key的集合然后通过key访问value;
+>
+> 2.获得value的集合;
+>
+> .获得key-value键值对的集合（key-value键值对其实是一个对象，里面分别有key和value）;
+>
+>  Map的访问顺序取决于Map的遍历访问方法的遍历顺序。 有的Map，比如TreeMap可以保证访问顺序，但是有的比如HashMap，无法保证访问顺序。
 
 
 
