@@ -27,8 +27,8 @@
         * [HashSet](chapter1/collection/set/hashset.md)
         * [LinkedHashSet](chapter1/collection/set/linkedhashset.md)
         * [TreeSet](chapter1/collection/set/treeset.md)
-      * Queue
-        * PriorityQueue
+      * [Queue](chapter1/collection/queue.md)
+        * [PriorityQueue](chapter1/collection/queue/priorityqueue.md)
       * [排序问题](chapter1/collection/排序问题.md)
       * [快速失败和安全失败](kuai-su-shi-bai-he-an-quan-shi-bai.md)
     * [Map](chapter1/map.md)
