@@ -1,6 +1,6 @@
-> **HashSet实现了Set接口，基于HashMap进行存储。遍历时不保证顺序，并且不保证下次遍历的顺序和之前一样。HashSet中允许null元素。**
->
-> **HashSet的集合其实就是HashMap的key的集合，然后HashMap的val默认都是PRESENT。HashMap的定义即是key不重复的集合。使用HashMap实现，这样HashSet就不需要再实现一遍。**
 
 
+HashSet实现了Set接口，基于HashMap进行存储。遍历时不保证顺序，并且不保证下次遍历的顺序和之前一样。HashSet中允许null元素。
+
+HashSet的集合其实就是HashMap的key的集合，然后HashMap的val默认都是PRESENT。HashMap的定义即是key不重复的集合。使用HashMap实现，这样HashSet就不需要再实现一遍。
 
