@@ -2,7 +2,15 @@
 
 Set的核心概念就是集合内所有元素不重复。在Set这个子接口中没有在Collection特别实现什么额外的方法，应该只是定义了一个Set概念。
 
-Set的实现类都是基于Map来实现的\(如，HashSet是通过HashMap实现的，TreeSet是通过TreeMap实现的\)。
+\(01\) Set 是继承于Collection的接口。它是一个不允许有重复元素的集合。
+
+\(02\) AbstractSet 是一个抽象类，它继承于AbstractCollection，AbstractCollection实现了Set中的绝大部分函数，为Set的实现类提供了便利。
+
+\(03\) HastSet 和 TreeSet 是Set的两个实现类。
+
+        HashSet依赖于HashMap，它实际上是通过HashMap实现的。HashSet中的元素是无序的。
+
+        TreeSet依赖于TreeMap，它实际上是通过TreeMap实现的。TreeSet中的元素是有序的。
 
 | Set实现 | 使用场景 | 数据结构 |
 | :--- | :--- | :--- |
