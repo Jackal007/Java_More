@@ -1,7 +1,5 @@
 # Java容器类
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
-
 ## ![](/assets/import.png)**Collection和Map**
 
 > **在Java容器中一共定义了2种集合, 顶层接口分别是Collection和Map。但是这2个接口都不能直接被实现使用，分别代表两种不同类型的容器。**

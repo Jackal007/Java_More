@@ -17,7 +17,7 @@
 * [Java核心类库](javahe-xin-lei-ku.md)
   * [Java数据类型](javashu-ju-lei-xing.md)
     * [double和float的区别](javashu-ju-lei-xing/double和float的区别.md)
-  * [Java集合容器类](chapter1.md)
+  * [Java集合类](chapter1.md)
     * [Collection](chapter1/collection.md)
       * [List](chapter1/collection/list.md)
         * [ArrayList](chapter1/collection/list/arraylist.md)
