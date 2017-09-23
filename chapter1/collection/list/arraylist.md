@@ -18,14 +18,11 @@ remove实现机制：直接使用System.arraycopy把需要删除index后面的�
 ### **ArrayList构造函数**
 
 ```java
-// 默认构造函数
-ArrayList()
+ArrayList()    // 默认构造函数
 
-// capacity是ArrayList的默认容量大小。当由于增加数据导致容量不足时，容量会添加上一次容量大小的一半。
-ArrayList(int capacity)
+ArrayList(int capacity)    // capacity是ArrayList的默认容量大小。当由于增加数据导致容量不足时，容量会添加上一次容量大小的一半。
 
-// 创建一个包含collection的ArrayList
-ArrayList(Collection<? extends E> collection)
+ArrayList(Collection<? extends E> collection)    // 创建一个包含collection的ArrayList
 ```
 
 ### **ArrayList的API**
