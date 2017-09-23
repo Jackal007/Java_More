@@ -55,6 +55,7 @@ ListIterator<E>     listIterator()
 E                   remove(int location)
 E                   set(int location, E object)
 List<E>             subList(int start, int end)
+
 // ArrayList新增的API
 Object               clone()
 void                 ensureCapacity(int minimumCapacity)
@@ -114,7 +115,7 @@ void                 removeRange(int fromIndex, int toIndex)
 > 5. list.Add\(“Add a Item” \);  
 > 6. }
 
-**      
+**            
 **
 
 **如果使用ArrayList.Synchronized方法返回的实例，那么就不用考虑线程同步的问题，这个实例本身就是线程安全的，实际上ArrayList内部实现了一个保证线程同步的内部类，ArrayList.Synchronized返回的就是这个类的实例，它里面的每个属性都是用了lock关键字来保证线程同步。**
