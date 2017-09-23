@@ -30,7 +30,7 @@ boolean isEmpty()
 Object clone()
 ```
 
-> 最基础最常用的一种Map，它无序，以散列表的方式进行存储  
+> 最基础最常用的一种Map，它无序，以散列表的方式进行存储，HashMap 在 put 的时候是根据 key 的 hashcode 进行 hash 然后放入对应的地方  
 > HashMap 继承于AbstractMap，实现了Map、Cloneable、java.io.Serializable接口。  
 > HashMap 的实现不是同步的，这意味着它不是线程安全的。它的key、value都可以为null。此外，HashMap中的映射不是有序的。
 >
