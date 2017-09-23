@@ -143,7 +143,7 @@
     * [自定义异常](javayi-chang-chu-li/zi-ding-yi-yi-chang.md)
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
   * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
-  * Java内存模型
+  * [Java内存模型](javanei-cun-mo-xing.md)
   * Java内存管理
   * [Java堆和栈](javadui-he-zhan.md)
   * [jdk和jre](jdkhe-jre.md)
