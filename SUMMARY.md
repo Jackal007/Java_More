@@ -10,11 +10,11 @@
         * [String](javabao-zhuang-lei/string.md)
           * [StringBuffer](javabao-zhuang-lei/string/stringbuffer.md)
           * [StringBuilder](javabao-zhuang-lei/string/stringbuilder.md)
-    * 多态
+    * [继承](Java优缺点/ji-cheng.md)
+    * [多态](Java优缺点/duo-tai.md)
       * [Java泛型](chou-xiang-ji-zhi/javafan-xing.md)
       * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
       * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
-    * [继承](Java优缺点/ji-cheng.md)
 * [Java核心类库](javahe-xin-lei-ku.md)
   * [Java数据类型](javashu-ju-lei-xing.md)
     * [double和float的区别](javashu-ju-lei-xing/double和float的区别.md)
@@ -160,6 +160,4 @@
   * [长度为0的数组](qi-ta/chang-du-wei-0-de-shu-zu.md)
   * [可变参数](qi-ta/ke-bian-can-shu.md)
   * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
-
-
 
