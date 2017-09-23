@@ -1,9 +1,4 @@
-| Map实现 | 使用场景 | 数据结构 |
-| :--- | :--- | :--- |
-| HashMap | 哈希表存储键值对，key不重复，无序 | 哈希散列表 |
-| LinkedHashMap | 是一个可以记录插入顺序和访问顺序的HashMap | 存储方式是哈希散列表，但是维护了头尾指针用来记录顺序 |
-| TreeMap | 具有元素排序功能 | 红黑树 |
-| WeakHashMap | 弱键映射，映射之外无引用的键，可以被垃圾回收 | 哈希散列表 |
+### ![](/assets/map.png)
 
 ### 接口定义如下：
 
@@ -70,7 +65,7 @@ map.put("02", "lisi");
 map.put("03", "wangwu");
 
 Set<Map.Entry<String, String>> entrySet = map.entrySet();
-              
+
 Iterator<Map.Entry<String, String>> it = entrySet.iterator();
 
 while(it.hasNext()) {
@@ -81,7 +76,12 @@ while(it.hasNext()) {
 }
 ```
 
-
+| Map实现 | 使用场景 | 数据结构 |
+| :--- | :--- | :--- |
+| HashMap | 哈希表存储键值对，key不重复，无序 | 哈希散列表 |
+| LinkedHashMap | 是一个可以记录插入顺序和访问顺序的HashMap | 存储方式是哈希散列表，但是维护了头尾指针用来记录顺序 |
+| TreeMap | 具有元素排序功能 | 红黑树 |
+| WeakHashMap | 弱键映射，映射之外无引用的键，可以被垃圾回收 | 哈希散列表 |
 
 > 一个保存键值映射的对象。 映射Map中不能包含重复的key，每一个key最多对应一个value。
 >
