@@ -15,18 +15,19 @@ HashMap(Map<? extends K, ? extends V> map)    // 包含“子Map”的构造函�
 ### **HashMap的API**
 
 ```java
-void                 clear()
-
-boolean              isEmpty()
-
-Object               clone()
+V get(Object key)
+V put(K key, V value)
+void putAll(Map<? extends K, ? extends V> map)
+V remove(Object key)
+int                  size()
 boolean              containsKey(Object key)
 boolean              containsValue(Object value)
-int                  size()
 Set<Entry<K, V>>     entrySet()
 Set<K>               keySet()
 Collection<V>        values()
-Object               clone()
+void clear()
+boolean isEmpty()
+Object clone()
 ```
 
 > HashMap就是最基础最常用的一种Map，它无序，以散列表的方式进行存储  
