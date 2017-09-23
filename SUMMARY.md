@@ -4,16 +4,17 @@
   * [可以参考的网站](可以参考的网站.md)
 * [Java优缺点](Java优缺点.md)
   * [面向对象](Java优缺点/面向对象.md)
-    * [Java包装类](javabao-zhuang-lei.md)
-      * [装箱和拆箱](javabao-zhuang-lei/zhuang-xiang-he-chai-xiang.md)
-      * [String](javabao-zhuang-lei/string.md)
-        * [StringBuffer](javabao-zhuang-lei/string/stringbuffer.md)
-        * [StringBuilder](javabao-zhuang-lei/string/stringbuilder.md)
-  * 多态
-    * [Java泛型](chou-xiang-ji-zhi/javafan-xing.md)
-    * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
-    * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
-  * [继承](Java优缺点/ji-cheng.md)
+    * 封装
+      * [Java包装类](javabao-zhuang-lei.md)
+        * [装箱和拆箱](javabao-zhuang-lei/zhuang-xiang-he-chai-xiang.md)
+        * [String](javabao-zhuang-lei/string.md)
+          * [StringBuffer](javabao-zhuang-lei/string/stringbuffer.md)
+          * [StringBuilder](javabao-zhuang-lei/string/stringbuilder.md)
+    * 多态
+      * [Java泛型](chou-xiang-ji-zhi/javafan-xing.md)
+      * [接口interface](chou-xiang-ji-zhi/jie-kou-interface.md)
+      * [抽象类abstract](chou-xiang-ji-zhi/chou-xiang-lei.md)
+    * [继承](Java优缺点/ji-cheng.md)
 * [Java核心类库](javahe-xin-lei-ku.md)
   * [Java数据类型](javashu-ju-lei-xing.md)
     * [double和float的区别](javashu-ju-lei-xing/double和float的区别.md)
@@ -103,7 +104,6 @@
     * [final类](privateprotectedpublicfinal/1/finalei.md)
   * [private、protected、public](privateprotectedpublicfinal/privateprotectedpublic.md)
   * [static](privateprotectedpublicfinal/static.md)
-* [System类](systemlei.md)
 * Java调试与测试
   * [Junit](junit.md)
     * [使用](junit/shi-yong.md)
@@ -160,4 +160,6 @@
   * [长度为0的数组](qi-ta/chang-du-wei-0-de-shu-zu.md)
   * [可变参数](qi-ta/ke-bian-can-shu.md)
   * [骚操作的题目](qi-ta/sao-cao-zuo-de-ti-mu.md)
+
+
 
