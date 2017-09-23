@@ -64,36 +64,64 @@ void                 removeRange(int fromIndex, int toIndex)
 
 ### **ArrayList遍历方式**
 
-**第一种，通过迭代器遍历。**即通过Iterator去遍历。
+* **通过迭代器遍历。**即通过Iterator去遍历。
 
-```java
-Integer value = null;
-Iterator iter = list.iterator();
-while
- (iter.hasNext()) {
+  ```java
+  Integer value = null;
+  Iterator iter = list.iterator();
+  while
+  (iter.hasNext()) {
     value = (Integer)iter.next();
-}
-```
+  }
+  ```
 
-**第二种，随机访问，通过索引值去遍历。**  
-由于ArrayList实现了RandomAccess接口，它支持通过索引值去随机访问元素。
+* **随机访问，通过索引值去遍历。** 由于ArrayList实现了RandomAccess接口，它支持通过索引值去随机访问元素。
 
-```java
-Integer value = null;
-int size = list.size();
-for (int i=0; i<size; i++) {
+  ```java
+  Integer value = null;
+  int size = list.size();
+  for (int i=0; i<size; i++) {
     value = (Integer)list.get(i);        
-}
-```
+  }
+  ```
 
-**第三种，for循环遍历**。如下：
+* **for循环遍历**
 
-```java
-Integer value = null;
-for (Integer integ:list) {
+  ```java
+  Integer value = null;
+  for (Integer integ:list) {
     value = integ;
-}
-```
+  }
+  ```
 
-**遍历ArrayList时，使用随机访问\(即，通过索引序号访问\)效率最高，而使用迭代器的效率最低！**
+**遍历ArrayList时，使用随机访问\(通过索引序号访问\)效率最高，而使用迭代器的效率最低！**
+
+### 线程同步
+
+**IsSynchronized属性和ArrayList.Synchronized方法**
+
+**IsSynchronized属性指示当前的ArrayList实例是否支持线程同步，而ArrayList.Synchronized静态方法则会返回一个ArrayList的线程同步的封装。**
+
+**如果使用非线程同步的实例，那么在多线程访问的时候，需要自己手动调用lock来保持线程同步，例如：**
+
+> 1. ArrayListlist = 
+>    new
+>     ArrayList\(\);  
+> 2. //...
+> 3. lock\(list.SyncRoot \)
+>    //当ArrayList为非线程包装的时候，SyncRoot属性其实就是它自己，但是为了满足ICollection的SyncRoot定义，这里还 是使用SyncRoot来保持源代码的规范性
+> 4. {  
+> 5. list.Add\(“Add a Item” \);  
+> 6. }
+
+**    
+**
+
+**如果使用ArrayList.Synchronized方法返回的实例，那么就不用考虑线程同步的问题，这个实例本身就是线程安全的，实际上ArrayList内部实现了一个保证线程同步的内部类，ArrayList.Synchronized返回的就是这个类的实例，它里面的每个属性都是用了lock关键字来保证线程同步。**
+
+**\*\*\*\***
+
+**但是，使用这个方法（ArrayList.Synchronized）并不能保证枚举的同步，例如，一个线程正在删除或添加集合项，而另一个线程同时进行枚举，这时枚举将会抛出异常。所以，在枚举的时候，你必须明确使用SyncRoot 锁定这个集合。**
+
+**Hashtable与ArrayList关于线程安全性的使用方法类似。**
 
