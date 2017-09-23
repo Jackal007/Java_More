@@ -27,7 +27,7 @@ Iterator<E>         iterator()
 boolean             remove(Object object)
 //remove实现机制：直接使用System.arraycopy把需要删除index后面的都往前移一位然后再把最后一个去掉。
 boolean             removeAll(Collection<?> collection)
-boolean             retainAll(Collection<?> collection)
+boolean             retainAll(Collection<?> collection)    //取得两个List的交集
 int                 size()
 <T> T[]             toArray(T[] array)
 Object[]            toArray()
@@ -103,7 +103,7 @@ void                 removeRange(int fromIndex, int toIndex)
 > 5. list.Add\(“Add a Item” \);  
 > 6. }
 
-**                
+**                  
 **
 
 **如果使用ArrayList.Synchronized方法返回的实例，那么就不用考虑线程同步的问题，这个实例本身就是线程安全的，实际上ArrayList内部实现了一个保证线程同步的内部类，ArrayList.Synchronized返回的就是这个类的实例，它里面的每个属性都是用了lock关键字来保证线程同步。**
