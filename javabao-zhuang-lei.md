@@ -3,13 +3,13 @@ Java语言是一个面向对象的语言，但是Java中的基本数据类型却
 | 基本类型 | 大小 | 包装器类型 |
 | :--- | :--- | :--- |
 | boolean | / | Boolean |
-| char | 16bit | Character |
+| char | 2byte | Character |
 | byte | 8bit | Byte |
-| short | 16bit | Short |
-| int | 32bit | Integer |
-| long | 64bit | Long |
-| float | 32bit | Float |
-| double | 64bit | Double |
+| short | 2byte | Short |
+| int | 4byte | Integer |
+| long | 8byte | Long |
+| float | 4byte | Float |
+| double | 8byte | Double |
 | void | / | Void |
 
 ### Java中的包装器类有两个主要的目的：
