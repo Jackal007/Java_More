@@ -151,7 +151,7 @@
   * [垃圾收集器和内存分配策略](la-ji-hui-shou-ji-zhi.md)
     * [判断对象死亡的方式](la-ji-hui-shou-ji-zhi/pan-duan-dui-xiang-si-wang-de-fang-shi.md)
       * [引用计数算法](la-ji-hui-shou-ji-zhi/yin-yong-ji-shu-suan-fa.md)
-        * 引用
+        * [引用](la-ji-hui-shou-ji-zhi/yin-yong-ji-shu-suan-fa/yin-yong.md)
       * [可达性分析算法](la-ji-hui-shou-ji-zhi/ke-da-xing-fen-xi-suan-fa.md)
   * [异常](yi-chang.md)
     * [OutOfMemoryError](yi-chang/outofmemoryerror.md)
