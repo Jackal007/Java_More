@@ -142,17 +142,31 @@
   * 异常类
     * [自定义异常](javayi-chang-chu-li/zi-ding-yi-yi-chang.md)
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
-  * [Java内存区域](javanei-cun-mo-xing.md)
-    * [运行时内存区域](javanei-cun-mo-xing/yun-xing-shi-nei-cun-qu-yu.md)
-    * [HotSpot虚拟机对象原理](javanei-cun-mo-xing/hotspotxu-ni-ji-dui-xiang-yuan-li.md)
-      * 对象的创建
-      * 对象的内存布局
-      * 对象的访问定位
+  * [运行时内存区域](javanei-cun-mo-xing/yun-xing-shi-nei-cun-qu-yu.md)
   * [垃圾收集器和内存分配策略](la-ji-hui-shou-ji-zhi.md)
     * [判断对象死亡的方式](la-ji-hui-shou-ji-zhi/pan-duan-dui-xiang-si-wang-de-fang-shi.md)
       * [引用计数算法](la-ji-hui-shou-ji-zhi/yin-yong-ji-shu-suan-fa.md)
         * [引用](la-ji-hui-shou-ji-zhi/yin-yong-ji-shu-suan-fa/yin-yong.md)
       * [可达性分析算法](la-ji-hui-shou-ji-zhi/ke-da-xing-fen-xi-suan-fa.md)
+      * 生存还是死亡
+    * [垃圾收集算法](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-suan-fa.md)
+      * 标记-清除算法
+      * 复制算法
+      * 标记整理算法
+      * 分代收集算法
+      * HotSpot的算法实现
+        * 枚举根节点
+        * 安全点
+        * 安全区域
+    * [垃圾收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi.md)
+      * Serial收集器
+      * ParNew收集器
+      * Parallel Scavenge收集器
+  * [HotSpot虚拟机对象原理](javanei-cun-mo-xing/hotspotxu-ni-ji-dui-xiang-yuan-li.md)
+    * 对象的创建
+    * 对象的内存布局
+    * 对象的访问定位
+  * 类的加载机制
   * [异常](yi-chang.md)
     * [OutOfMemoryError](yi-chang/outofmemoryerror.md)
       * java堆溢出
@@ -161,7 +175,6 @@
       * 本机直接内存溢出
   * [快速失败和安全失败](kuai-su-shi-bai-he-an-quan-shi-bai.md)
   * [jdk和jre](jdkhe-jre.md)
-  * 类的加载机制
 * [Java Web服务器](java-web服务器/tomcat.md)
   * tomcat
 * Java主流框架
