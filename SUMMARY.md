@@ -159,14 +159,25 @@
         * 安全点
         * 安全区域
     * [垃圾收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi.md)
-      * Serial收集器
+      * [Serial收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi/serialshou-ji-qi.md)
       * ParNew收集器
       * Parallel Scavenge收集器
+      * Serial Old收集器
+      * Parallel Old收集器
+      * CMS收集器
+      * G1收集器
+    * GC日志
+    * 内存分配与回收策略
+      * [对象优先在Eden分配](la-ji-hui-shou-ji-zhi/dui-xiang-you-xian-zai-eden-fen-pei.md)
+      * 大对象直接进入老年代
+      * 长期存活的对象将进入老年代
+      * 动态对象年龄判断
+      * 空间分配担保
+  * 类的加载机制
   * [HotSpot虚拟机对象原理](javanei-cun-mo-xing/hotspotxu-ni-ji-dui-xiang-yuan-li.md)
     * 对象的创建
     * 对象的内存布局
     * 对象的访问定位
-  * 类的加载机制
   * [异常](yi-chang.md)
     * [OutOfMemoryError](yi-chang/outofmemoryerror.md)
       * java堆溢出
@@ -175,6 +186,7 @@
       * 本机直接内存溢出
   * [快速失败和安全失败](kuai-su-shi-bai-he-an-quan-shi-bai.md)
   * [jdk和jre](jdkhe-jre.md)
+  * 性能监控与故障处理工具
 * [Java Web服务器](java-web服务器/tomcat.md)
   * tomcat
 * Java主流框架
