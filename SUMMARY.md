@@ -144,12 +144,20 @@
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
   * [Java内存区域](javanei-cun-mo-xing.md)
     * [运行时内存区域](javanei-cun-mo-xing/yun-xing-shi-nei-cun-qu-yu.md)
-  * Java内存管理
+    * [HotSpot虚拟机对象原理](javanei-cun-mo-xing/hotspotxu-ni-ji-dui-xiang-yuan-li.md)
+      * 对象的创建
+      * 对象的内存布局
+      * 对象的访问定位
   * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
-  * [Java堆和栈](javadui-he-zhan.md)
-  * [jdk和jre](jdkhe-jre.md)
+  * [异常](yi-chang.md)
+    * [OutOfMemoryError](yi-chang/outofmemoryerror.md)
+      * java堆溢出
+      * 虚拟机栈和本地方法栈溢出
+      * 方法区和运行时常量池溢出
+      * 本机直接内存溢出
   * [快速失败和安全失败](kuai-su-shi-bai-he-an-quan-shi-bai.md)
-  * [ClassLoader](classloader.md)
+  * [jdk和jre](jdkhe-jre.md)
+  * 类的加载机制
 * [Java Web服务器](java-web服务器/tomcat.md)
   * tomcat
 * Java主流框架
