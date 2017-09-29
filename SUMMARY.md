@@ -142,9 +142,10 @@
   * 异常类
     * [自定义异常](javayi-chang-chu-li/zi-ding-yi-yi-chang.md)
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
-  * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
-  * [Java内存模型](javanei-cun-mo-xing.md)
+  * [Java内存区域](javanei-cun-mo-xing.md)
+    * [运行时内存区域](javanei-cun-mo-xing/yun-xing-shi-nei-cun-qu-yu.md)
   * Java内存管理
+  * [垃圾回收机制](la-ji-hui-shou-ji-zhi.md)
   * [Java堆和栈](javadui-he-zhan.md)
   * [jdk和jre](jdkhe-jre.md)
   * [快速失败和安全失败](kuai-su-shi-bai-he-an-quan-shi-bai.md)
