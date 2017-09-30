@@ -152,8 +152,8 @@
     * [垃圾收集算法](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-suan-fa.md)
       * [标记-清除算法](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-suan-fa/biao-8bb0-qing-chu-suan-fa.md)
       * [复制算法](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-suan-fa/fu-zhi-suan-fa.md)
-      * 标记整理算法
-      * 分代收集算法
+      * [标记整理算法](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-suan-fa/biao-ji-zheng-li-suan-fa.md)
+      * [分代收集算法](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-suan-fa/fen-dai-shou-ji-suan-fa.md)
       * HotSpot的算法实现
         * 枚举根节点
         * 安全点
