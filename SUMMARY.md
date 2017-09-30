@@ -151,7 +151,7 @@
       * [判断方法区中的内容是否有用](la-ji-hui-shou-ji-zhi/pan-duan-fang-fa-qu-zhong-de-nei-rong-shi-fou-you-yong.md)
     * [垃圾收集算法](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-suan-fa.md)
       * [标记-清除算法](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-suan-fa/biao-8bb0-qing-chu-suan-fa.md)
-      * 复制算法
+      * [复制算法](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-suan-fa/fu-zhi-suan-fa.md)
       * 标记整理算法
       * 分代收集算法
       * HotSpot的算法实现
