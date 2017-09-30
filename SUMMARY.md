@@ -148,7 +148,6 @@
       * [引用计数算法](la-ji-hui-shou-ji-zhi/yin-yong-ji-shu-suan-fa.md)
         * [引用](la-ji-hui-shou-ji-zhi/yin-yong-ji-shu-suan-fa/yin-yong.md)
       * [可达性分析算法](la-ji-hui-shou-ji-zhi/ke-da-xing-fen-xi-suan-fa.md)
-      * 生存还是死亡
     * [垃圾收集算法](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-suan-fa.md)
       * 标记-清除算法
       * 复制算法
