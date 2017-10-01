@@ -61,7 +61,7 @@
       * [实现Runnable接口](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi/shi-xian-runnable-jie-kou.md)
       * [使用Callable和Future接口创建线程](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi/shi-yong-callablehe-future-jie-kou-chuang-jian-xian-cheng.md)
     * [线程同步synchronized](javaduo-xian-cheng/tong-bu-ff0c-suo.md)
-      * [同步方法](javaduo-xian-cheng/tong-bu-ff0c-suo/tong-bu-fang-fa.md)
+      * [同步函数](javaduo-xian-cheng/tong-bu-ff0c-suo/tong-bu-fang-fa.md)
       * [同步代码块](javaduo-xian-cheng/tong-bu-ff0c-suo/tong-bu-dai-ma-kuai.md)
       * [volatile特殊域变量](javaduo-xian-cheng/tong-bu-ff0c-suo/volatilete-shu-yu-bian-liang.md)
       * [使用重入锁实现线程同步](javaduo-xian-cheng/tong-bu-ff0c-suo/shi-yong-zhong-ru-suo-shi-xian-xian-cheng-tong-bu.md)
