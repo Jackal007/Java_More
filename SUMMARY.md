@@ -160,8 +160,8 @@
         * 安全区域
     * [垃圾收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi.md)
       * [Serial收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi/serialshou-ji-qi.md)
-      * ParNew收集器
-      * Parallel Scavenge收集器
+      * [ParNew收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi/parnewshou-ji-qi.md)
+      * [Parallel Scavenge收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi/parallel-scavengeshou-ji-qi.md)
       * Serial Old收集器
       * Parallel Old收集器
       * CMS收集器
