@@ -160,14 +160,14 @@
         * 安全区域
     * [垃圾收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi.md)
       * [Serial收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi/serialshou-ji-qi.md)
+      * [Serial Old收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi/serial-oldshou-ji-qi.md)
       * [ParNew收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi/parnewshou-ji-qi.md)
       * [Parallel Scavenge收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi/parallel-scavengeshou-ji-qi.md)
-      * Serial Old收集器
-      * Parallel Old收集器
+      * [Parallel Old收集器](la-ji-hui-shou-ji-zhi/la-ji-shou-ji-qi/parallel-oldshou-ji-qi.md)
       * CMS收集器
       * G1收集器
     * GC日志
-    * 内存分配与回收策略
+    * [内存分配与回收策略](la-ji-hui-shou-ji-zhi/nei-cun-fen-pei-yu-hui-shou-ce-lve.md)
       * [对象优先在Eden分配](la-ji-hui-shou-ji-zhi/dui-xiang-you-xian-zai-eden-fen-pei.md)
       * 大对象直接进入老年代
       * 长期存活的对象将进入老年代
