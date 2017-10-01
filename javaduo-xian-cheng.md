@@ -111,10 +111,9 @@
   * ##### setPriority\(\)
 
     更改线程的优先级（具有继承性：子线程和父线程优先级一样）
-    MIN\_PRIORITY = 1 　　 NORM\_PRIORITY = 5 MAX\_PRIORITY = 10
-
-  用法：
-
+    MIN\_PRIORITY = 1 　　 
+    NORM\_PRIORITY = 5 
+    MAX\_PRIORITY = 10
   ```java
   Thread4 t1 = new Thread4("t1");
   Thread4 t2 = new Thread4("t2");
@@ -122,7 +121,7 @@
   t2.setPriority(Thread.MIN_PRIORITY);
   ```
 
-* ##### getPriority\(\)
+  * ##### getPriority\(\)
 
 
 
