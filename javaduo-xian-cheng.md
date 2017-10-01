@@ -108,9 +108,10 @@
 
 * ##### 优先级
 
-  * #####setPriority\(\) 
-  更改线程的优先级  
-  MIN\_PRIORITY = 1 　　 NORM\_PRIORITY = 5 MAX\_PRIORITY = 10
+  * ##### setPriority\(\)
+
+    更改线程的优先级（具有继承性：子线程和父线程优先级一样）
+    MIN\_PRIORITY = 1 　　 NORM\_PRIORITY = 5 MAX\_PRIORITY = 10
 
   用法：
 
@@ -120,6 +121,8 @@
   t1.setPriority(Thread.MAX_PRIORITY);
   t2.setPriority(Thread.MIN_PRIORITY);
   ```
-* ##### getPriority\(\) 
+
+* ##### getPriority\(\)
+
 
 
