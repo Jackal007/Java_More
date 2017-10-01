@@ -55,7 +55,7 @@
     * NIO（New IO）
   * [Java多线程multithreading](javaduo-xian-cheng.md)
     * [线程状态](javaduo-xian-cheng/xian-cheng-zhuang-tai.md)
-      * [常用函数说明](javaduo-xian-cheng/xian-cheng-zhuang-tai/chang-yong-han-shu-shuo-ming.md)
+      * [xxxx](javaduo-xian-cheng/xian-cheng-zhuang-tai/chang-yong-han-shu-shuo-ming.md)
     * [线程的实现方式](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi.md)
       * [继承Thread类](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi/ji-cheng-thread-lei.md)
       * [实现Runnable接口](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi/shi-xian-runnable-jie-kou.md)
