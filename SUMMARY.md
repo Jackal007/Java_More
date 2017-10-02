@@ -176,6 +176,10 @@
   * [类的加载机制](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi.md)
     * [加载](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/jia-zai.md)
     * [验证](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/yan-zheng.md)
+    * [准备阶段](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/zhun-bei-jie-duan.md)
+    * [解析](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/jie-xi.md)
+    * [初始化](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/chu-shi-hua.md)
+    * [类加载器](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/lei-jia-zai-qi.md)
   * [异常](yi-chang.md)
     * [OutOfMemoryError](yi-chang/outofmemoryerror.md)
       * java堆溢出
