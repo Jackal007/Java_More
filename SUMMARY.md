@@ -174,6 +174,8 @@
       * 动态对象年龄判断
       * 空间分配担保
   * [类的加载机制](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi.md)
+    * [加载](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/jia-zai.md)
+    * [验证](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/yan-zheng.md)
   * [异常](yi-chang.md)
     * [OutOfMemoryError](yi-chang/outofmemoryerror.md)
       * java堆溢出
