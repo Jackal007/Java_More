@@ -173,11 +173,7 @@
       * 长期存活的对象将进入老年代
       * 动态对象年龄判断
       * 空间分配担保
-  * 类的加载机制
-  * [HotSpot虚拟机对象原理](javanei-cun-mo-xing/hotspotxu-ni-ji-dui-xiang-yuan-li.md)
-    * 对象的创建
-    * 对象的内存布局
-    * 对象的访问定位
+  * [类的加载机制](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi.md)
   * [异常](yi-chang.md)
     * [OutOfMemoryError](yi-chang/outofmemoryerror.md)
       * java堆溢出
@@ -187,6 +183,10 @@
   * [快速失败和安全失败](kuai-su-shi-bai-he-an-quan-shi-bai.md)
   * [jdk和jre](jdkhe-jre.md)
   * 性能监控与故障处理工具
+  * [HotSpot虚拟机对象原理](javanei-cun-mo-xing/hotspotxu-ni-ji-dui-xiang-yuan-li.md)
+    * 对象的创建
+    * 对象的内存布局
+    * 对象的访问定位
 * [Java Web服务器](java-web服务器/tomcat.md)
   * tomcat
 * Java主流框架
