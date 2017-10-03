@@ -101,25 +101,26 @@
 
 * ##### join\(\) 线程加入 :
 
-  指等待t线程终止。 t.join\(\) 表示其他线程阻塞，要等待t执行完毕才能执行。
+  指等待t线程终止。 t.join\(\) 表示其他线程无限期阻塞，直到 t 执行完毕才能执行。
 
-  > 为什么要用join\(\)方法？  
+  > **为什么要用join\(\)方法？**  
   > 在很多情况下，主线程生成并起动了子线程，如果子线程里要进行大量的耗时的运算，主线程往往将于子线程之前结束，但是如果主线程处理完其他的事务后，需要用到子线程的处理结果，也就是主线程需要等待子线程执行完成之后再结束，这个时候就要用到join\(\)方法了。
 
 * ##### 优先级
 
   * ##### setPriority\(\)
 
-    更改线程的优先级（具有继承性：子线程和父线程优先级一样）
-    MIN\_PRIORITY = 1 　　 
-    NORM\_PRIORITY = 5 
+    更改线程的优先级（具有继承性：子线程和父线程优先级一样）  
+    MIN\_PRIORITY = 1 　　   
+    NORM\_PRIORITY = 5   
     MAX\_PRIORITY = 10
-  ```java
-  Thread4 t1 = new Thread4("t1");
-  Thread4 t2 = new Thread4("t2");
-  t1.setPriority(Thread.MAX_PRIORITY);
-  t2.setPriority(Thread.MIN_PRIORITY);
-  ```
+
+    ```java
+    Thread4 t1 = new Thread4("t1");
+    Thread4 t2 = new Thread4("t2");
+    t1.setPriority(Thread.MAX_PRIORITY);
+    t2.setPriority(Thread.MIN_PRIORITY);
+    ```
 
   * ##### getPriority\(\)
 
