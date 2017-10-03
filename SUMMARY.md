@@ -55,7 +55,6 @@
     * NIO（New IO）
   * [Java多线程multithreading](javaduo-xian-cheng.md)
     * [线程状态](javaduo-xian-cheng/xian-cheng-zhuang-tai.md)
-      * [xxxx](javaduo-xian-cheng/xian-cheng-zhuang-tai/chang-yong-han-shu-shuo-ming.md)
     * [线程的实现方式](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi.md)
       * [继承Thread类](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi/ji-cheng-thread-lei.md)
       * [实现Runnable接口](javaduo-xian-cheng/xian-cheng-de-shi-xian-fang-shi/shi-xian-runnable-jie-kou.md)
@@ -66,8 +65,8 @@
       * [volatile特殊域变量](javaduo-xian-cheng/tong-bu-ff0c-suo/volatilete-shu-yu-bian-liang.md)
       * [使用重入锁实现线程同步](javaduo-xian-cheng/tong-bu-ff0c-suo/shi-yong-zhong-ru-suo-shi-xian-xian-cheng-tong-bu.md)
       * [使用ThreadLocal实现线程同步](javaduo-xian-cheng/tong-bu-ff0c-suo/shi-yong-threadlocal-shi-xian-xian-cheng-tong-bu.md)
-    * [多线程数据传递](javaduo-xian-cheng/shu-ju-chuan-di.md)
-      * 线程间通信
+    * [线程间通信](javaduo-xian-cheng/shu-ju-chuan-di/xian-cheng-jian-tong-xin.md)
+      * [wait\(\)和notify\(\)](javaduo-xian-cheng/shu-ju-chuan-di/xian-cheng-jian-tong-xin/waithe-notify.md)
   * [Java反射reflection](javafan-shereflection.md)
     * [获取](javafan-shereflection/huo-qu-xin-xi.md)
       * [获取类](javafan-shereflection/huo-qu-xin-xi/huo-qu-lei.md)
