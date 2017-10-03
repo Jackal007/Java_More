@@ -179,8 +179,8 @@
     * [解析](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/jie-xi.md)
     * [初始化](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/chu-shi-hua.md)
     * [类加载器](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/lei-jia-zai-qi.md)
-      * 双亲委派模型
-      * 破坏双亲委派模型
+      * [双亲委派模型](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/lei-jia-zai-qi/shuang-qin-wei-pai-mo-xing.md)
+      * [破坏双亲委派模型](javanei-cun-mo-xing/lei-de-jia-zai-ji-zhi/lei-jia-zai-qi/po-huai-shuang-qin-wei-pai-mo-xing.md)
   * [异常](yi-chang.md)
     * [OutOfMemoryError](yi-chang/outofmemoryerror.md)
       * java堆溢出
