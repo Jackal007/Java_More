@@ -142,7 +142,6 @@
   * 异常类
     * [自定义异常](javayi-chang-chu-li/zi-ding-yi-yi-chang.md)
 * [JVM\(java虚拟机\)](jvmjavaxu-ni-673a29.md)
-  * [运行时内存区域](javanei-cun-mo-xing/yun-xing-shi-nei-cun-qu-yu.md)
   * [垃圾收集器和内存分配策略](la-ji-hui-shou-ji-zhi.md)
     * [判断对象死亡的方式](la-ji-hui-shou-ji-zhi/pan-duan-dui-xiang-si-wang-de-fang-shi.md)
       * [引用计数算法](la-ji-hui-shou-ji-zhi/yin-yong-ji-shu-suan-fa.md)
