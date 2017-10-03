@@ -1,6 +1,6 @@
 ### **使用Callable和Future接口创建线程。**
 
-### **具体是创建Callable接口的实现类，并实现clall\(\)方法。并使用FutureTask类来包装Callable实现类的对象，且以此FutureTask对象作为Thread对象的target来创建线程。**
+具体是创建Callable接口的实现类，并实现clall\(\)方法。并使用FutureTask类来包装Callable实现类的对象，且以此FutureTask对象作为Thread对象的target来创建线程。
 
 小线程可以有返回值。
 
@@ -53,8 +53,6 @@ class MyCallable implements Callable<Integer> {
 ```
 
 首先，我们发现，在实现Callable接口中，此时不再是run\(\)方法了，而是call\(\)方法，此call\(\)方法作为线程执行体，同时还具有返回值！在创建新的线程时，是通过FutureTask来包装MyCallable对象，同时作为了Thread对象的target。
-
-
 
 我们发现FutureTask类实际上是同时实现了Runnable和Future接口，由此才使得其具有Future和Runnable双重特性。通过Runnable特性，可以作为Thread对象的target，而Future特性，使得其可以取得新创建线程中的call\(\)方法的返回值。
 
