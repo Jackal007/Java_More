@@ -6,14 +6,14 @@
 
   ```java
   public static void main(String[] args){
-  System.out.println(Thread.currentThread().getName());
+      System.out.println(Thread.currentThread().getName());
   }
   //输出：main
   ```
 
 * ##### isAlive\(\)
 
-  判断当前线程是否处于活动状态\(已经启动，尚未终止\)
+  判断当前线程是否处于活动状态\(只要已经启动，尚未终止，就是存活\)
 
   ```java
   public MyThread extends Tread{
@@ -111,8 +111,8 @@
   * ##### setPriority\(\)
 
     更改线程的优先级（具有继承性：子线程和父线程优先级一样）  
-    MIN\_PRIORITY = 1 　　   
-    NORM\_PRIORITY = 5   
+    MIN\_PRIORITY = 1 　　  
+    NORM\_PRIORITY = 5  
     MAX\_PRIORITY = 10
 
     ```java
